@@ -1,3 +1,5 @@
+import { API_URL } from "./config";
+
 export type GapAnalysisItem = {
   skill_id: string;
   skill_name: string;
@@ -45,8 +47,6 @@ export type PersonalizationResult = {
   gap_analysis: GapAnalysisItem[];
   roadmap: RoadmapNode[];
 };
-
-const API_URL = process.env.NEXT_PUBLIC_API_URL ?? "http://localhost:8000";
 
 export async function analyzePersonalization(goalId: string, assessmentId: string) {
   const response = await fetch(`${API_URL}/api/personalization/analyze`, {

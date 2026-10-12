@@ -1,3 +1,5 @@
+import { API_URL } from "./config";
+
 export type AssessmentQuestion = {
   id: string;
   skill_id: string;
@@ -44,8 +46,6 @@ export type AssessmentResult = {
     explanation: string;
   }>;
 };
-
-const API_URL = process.env.NEXT_PUBLIC_API_URL ?? "http://localhost:8000";
 
 async function request<T>(path: string, init?: RequestInit): Promise<T> {
   const response = await fetch(`${API_URL}${path}`, {

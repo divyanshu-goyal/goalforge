@@ -1,3 +1,5 @@
+import { API_URL } from "./config";
+
 export type GoalDiscoveryData = {
   goal: string;
   objective: string;
@@ -14,8 +16,6 @@ export type GoalDiscoveryData = {
 export type GoalProfile = Omit<GoalDiscoveryData, "weekly_hours"> & {
   weekly_hours: number;
 };
-
-const API_URL = process.env.NEXT_PUBLIC_API_URL ?? "http://localhost:8000";
 
 export async function discoverGoal(data: GoalDiscoveryData): Promise<GoalProfile> {
   const response = await fetch(`${API_URL}/api/goals/discover`, {

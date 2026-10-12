@@ -1,3 +1,5 @@
+import { API_URL } from "./config";
+
 export type Achievement = {
   achievement_id: string;
   name: string;
@@ -28,8 +30,6 @@ export type GamificationProfile = {
   last_xp_awarded: number;
   last_xp_reason: string;
 };
-
-const API_URL = process.env.NEXT_PUBLIC_API_URL ?? "http://localhost:8000";
 
 export async function getGamificationProfile() {
   const response = await fetch(`${API_URL}/api/gamification/profile`, { credentials: "include" });

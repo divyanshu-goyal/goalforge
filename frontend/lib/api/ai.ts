@@ -1,3 +1,5 @@
+import { API_URL } from "./config";
+
 export type AIInsight = {
   summary: string;
   insights: string[];
@@ -13,8 +15,6 @@ export type AIMentorResponse = {
   context_used: string[];
   ai_available: boolean;
 };
-
-const API_URL = process.env.NEXT_PUBLIC_API_URL ?? "http://localhost:8000";
 
 async function request<T>(path: string, body: object): Promise<T> {
   const response = await fetch(`${API_URL}${path}`, {

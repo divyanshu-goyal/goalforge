@@ -20,7 +20,10 @@ export default function BossBattlePage() {
   useEffect(() => {
     if (!params.attemptId) return;
     getBossBattle(params.attemptId)
-      .then(setAttempt)
+      .then((loadedAttempt) => {
+        setAttempt(loadedAttempt);
+        setResult(loadedAttempt.result);
+      })
       .catch((requestError: Error) => setError(requestError.message));
   }, [params.attemptId]);
 
