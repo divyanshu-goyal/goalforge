@@ -1,0 +1,92 @@
+[
+  {
+    "id": "learn_python",
+    "name": "Learn Python",
+    "description": "Build a practical foundation in Python programming.",
+    "required_skills": [
+      "python_basics",
+      "python_control_flow",
+      "python_functions",
+      "python_data_structures",
+      "python_modules",
+      "python_oop",
+      "python_file_handling",
+      "python_exceptions",
+      "python_virtual_environments"
+    ]
+  },
+  {
+    "id": "learn_cpp",
+    "name": "Learn C++",
+    "description": "Build a practical foundation in modern C++ programming.",
+    "required_skills": [
+      "cpp_basics",
+      "cpp_control_flow",
+      "cpp_functions",
+      "cpp_arrays_strings",
+      "cpp_pointers",
+      "cpp_oop",
+      "cpp_stl",
+      "cpp_templates",
+      "cpp_modern"
+    ]
+  },
+  {
+    "id": "learn_web_development",
+    "name": "Learn Web Development",
+    "description": "Understand the core technologies and concepts used to build web applications.",
+    "required_skills": [
+      "web_html",
+      "web_css",
+      "web_javascript",
+      "web_dom",
+      "web_http",
+      "web_git",
+      "web_responsive",
+      "web_async_javascript",
+      "web_frontend",
+      "web_backend"
+    ]
+  },
+  {
+    "id": "learn_data_structures_algorithms",
+    "name": "Learn Data Structures and Algorithms",
+    "description": "Develop foundational problem-solving skills with common data structures and algorithms.",
+    "required_skills": [
+      "dsa_complexity",
+      "dsa_arrays",
+      "dsa_strings",
+      "dsa_linked_lists",
+      "dsa_stacks",
+      "dsa_queues",
+      "dsa_hashing",
+      "dsa_trees",
+      "dsa_heaps",
+      "dsa_graphs",
+      "dsa_sorting",
+      "dsa_searching",
+      "dsa_recursion",
+      "dsa_dynamic_programming"
+    ]
+  },
+  {
+    "id": "learn_machine_learning",
+    "name": "Learn Machine Learning",
+    "description": "Build the mathematics, data and modeling foundation for machine learning.",
+    "required_skills": [
+      "ml_python",
+      "ml_numpy",
+      "ml_pandas",
+      "ml_visualization",
+      "ml_linear_algebra",
+      "ml_probability",
+      "ml_statistics",
+      "ml_preprocessing",
+      "ml_regression",
+      "ml_classification",
+      "ml_evaluation",
+      "ml_features",
+      "ml_neural_networks"
+    ]
+  }
+]

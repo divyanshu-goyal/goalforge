@@ -1,0 +1,40 @@
+# Dependencies
+node_modules/
+
+# Next.js
+.next/
+out/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Local databases and SQLite sidecar files
+backend/data/*.db
+backend/data/*.sqlite3
+*.db-journal
+*.db-wal
+*.db-shm
+*.sqlite-journal
+*.sqlite-wal
+*.sqlite-shm
+*.sqlite3-journal
+*.sqlite3-wal
+*.sqlite3-shm
+
+# Test and runtime artifacts
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Tooling
+.DS_Store
+*.log

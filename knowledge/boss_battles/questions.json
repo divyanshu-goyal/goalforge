@@ -1,0 +1,4127 @@
+[
+  {
+    "id": "python_functions_boss_1",
+    "skill_id": "python_functions",
+    "question_type": "conceptual",
+    "question": "What is the main benefit of returning a value from a function?",
+    "options": [
+      "It makes the function reusable in other expressions",
+      "It prevents the function from accepting arguments",
+      "It automatically creates a class",
+      "It stops all program execution"
+    ],
+    "correct_answer": "It makes the function reusable in other expressions",
+    "difficulty": "medium",
+    "explanation": "A returned value can be assigned, composed, or passed to another function."
+  },
+  {
+    "id": "python_functions_boss_2",
+    "skill_id": "python_functions",
+    "question_type": "mcq",
+    "question": "What does this function return when called as make_label('Ada')?",
+    "options": [
+      "Ada",
+      "Hello, Ada!",
+      "None",
+      "An error"
+    ],
+    "correct_answer": "Hello, Ada!",
+    "difficulty": "medium",
+    "explanation": "The parameter is interpolated into the f-string and returned."
+  },
+  {
+    "id": "python_functions_boss_3",
+    "skill_id": "python_functions",
+    "question_type": "code_output",
+    "question": "What is the output?\n\ndef add(a, b=2):\n    return a + b\n\nprint(add(3))",
+    "options": [
+      "2",
+      "3",
+      "5",
+      "TypeError"
+    ],
+    "correct_answer": "5",
+    "difficulty": "hard",
+    "explanation": "The omitted b argument uses its default value of 2, so 3 + 2 equals 5."
+  },
+  {
+    "id": "python_functions_boss_4",
+    "skill_id": "python_functions",
+    "question_type": "conceptual",
+    "question": "Which statement about local variables is correct?",
+    "options": [
+      "They are normally available only inside the function where they are created",
+      "They are always global",
+      "They can only contain strings",
+      "They cannot be returned"
+    ],
+    "correct_answer": "They are normally available only inside the function where they are created",
+    "difficulty": "hard",
+    "explanation": "A local variable belongs to the function scope unless explicitly managed otherwise."
+  },
+  {
+    "id": "python_functions_boss_5",
+    "skill_id": "python_functions",
+    "question_type": "code_output",
+    "question": "What is the output?\n\ndef apply(value, operation):\n    return operation(value)\n\nprint(apply(4, lambda number: number * 2))",
+    "options": [
+      "4",
+      "6",
+      "8",
+      "An error"
+    ],
+    "correct_answer": "8",
+    "difficulty": "advanced",
+    "explanation": "The lambda doubles 4 and is passed as a callable argument."
+  },
+  {
+    "id": "python_basics_boss_1",
+    "skill_id": "python_basics",
+    "question": "Which statement best describes the focus of Python Basics?",
+    "question_type": "conceptual",
+    "options": [
+      "Variables, data types, operators, conditionals and loops",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Variables, data types, operators, conditionals and loops",
+    "difficulty": "medium",
+    "explanation": "This directly tests understanding of Python Basics: Variables, data types, operators, conditionals and loops."
+  },
+  {
+    "id": "python_basics_boss_2",
+    "skill_id": "python_basics",
+    "question": "Which activity most directly demonstrates practical understanding of Python Basics?",
+    "question_type": "mcq",
+    "options": [
+      "Apply Python Basics in a focused exercise and explain the result",
+      "Rename unrelated files without observing behavior",
+      "Change a display color without testing logic",
+      "Install an operating system without using the concept"
+    ],
+    "correct_answer": "Apply Python Basics in a focused exercise and explain the result",
+    "difficulty": "medium",
+    "explanation": "This directly tests understanding of Python Basics: Variables, data types, operators, conditionals and loops."
+  },
+  {
+    "id": "python_basics_boss_3",
+    "skill_id": "python_basics",
+    "question": "Which statement best describes the focus of Python Basics?",
+    "question_type": "conceptual",
+    "options": [
+      "Variables, data types, operators, conditionals and loops",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Variables, data types, operators, conditionals and loops",
+    "difficulty": "hard",
+    "explanation": "This directly tests understanding of Python Basics: Variables, data types, operators, conditionals and loops."
+  },
+  {
+    "id": "python_basics_boss_4",
+    "skill_id": "python_basics",
+    "question": "Which activity most directly demonstrates practical understanding of Python Basics?",
+    "question_type": "mcq",
+    "options": [
+      "Apply Python Basics in a focused exercise and explain the result",
+      "Rename unrelated files without observing behavior",
+      "Change a display color without testing logic",
+      "Install an operating system without using the concept"
+    ],
+    "correct_answer": "Apply Python Basics in a focused exercise and explain the result",
+    "difficulty": "hard",
+    "explanation": "This directly tests understanding of Python Basics: Variables, data types, operators, conditionals and loops."
+  },
+  {
+    "id": "python_basics_boss_5",
+    "skill_id": "python_basics",
+    "question": "Which statement best describes the focus of Python Basics?",
+    "question_type": "conceptual",
+    "options": [
+      "Variables, data types, operators, conditionals and loops",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Variables, data types, operators, conditionals and loops",
+    "difficulty": "advanced",
+    "explanation": "This directly tests understanding of Python Basics: Variables, data types, operators, conditionals and loops."
+  },
+  {
+    "id": "python_control_flow_boss_1",
+    "skill_id": "python_control_flow",
+    "question": "Which statement best describes the focus of Python Control Flow?",
+    "question_type": "conceptual",
+    "options": [
+      "Conditional logic, loops and iteration patterns in Python",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Conditional logic, loops and iteration patterns in Python",
+    "difficulty": "medium",
+    "explanation": "This directly tests understanding of Python Control Flow: Conditional logic, loops and iteration patterns in Python."
+  },
+  {
+    "id": "python_control_flow_boss_2",
+    "skill_id": "python_control_flow",
+    "question": "Which activity most directly demonstrates practical understanding of Python Control Flow?",
+    "question_type": "mcq",
+    "options": [
+      "Apply Python Control Flow in a focused exercise and explain the result",
+      "Rename unrelated files without observing behavior",
+      "Change a display color without testing logic",
+      "Install an operating system without using the concept"
+    ],
+    "correct_answer": "Apply Python Control Flow in a focused exercise and explain the result",
+    "difficulty": "medium",
+    "explanation": "This directly tests understanding of Python Control Flow: Conditional logic, loops and iteration patterns in Python."
+  },
+  {
+    "id": "python_control_flow_boss_3",
+    "skill_id": "python_control_flow",
+    "question": "Which statement best describes the focus of Python Control Flow?",
+    "question_type": "conceptual",
+    "options": [
+      "Conditional logic, loops and iteration patterns in Python",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Conditional logic, loops and iteration patterns in Python",
+    "difficulty": "hard",
+    "explanation": "This directly tests understanding of Python Control Flow: Conditional logic, loops and iteration patterns in Python."
+  },
+  {
+    "id": "python_control_flow_boss_4",
+    "skill_id": "python_control_flow",
+    "question": "Which activity most directly demonstrates practical understanding of Python Control Flow?",
+    "question_type": "mcq",
+    "options": [
+      "Apply Python Control Flow in a focused exercise and explain the result",
+      "Rename unrelated files without observing behavior",
+      "Change a display color without testing logic",
+      "Install an operating system without using the concept"
+    ],
+    "correct_answer": "Apply Python Control Flow in a focused exercise and explain the result",
+    "difficulty": "hard",
+    "explanation": "This directly tests understanding of Python Control Flow: Conditional logic, loops and iteration patterns in Python."
+  },
+  {
+    "id": "python_control_flow_boss_5",
+    "skill_id": "python_control_flow",
+    "question": "Which statement best describes the focus of Python Control Flow?",
+    "question_type": "conceptual",
+    "options": [
+      "Conditional logic, loops and iteration patterns in Python",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Conditional logic, loops and iteration patterns in Python",
+    "difficulty": "advanced",
+    "explanation": "This directly tests understanding of Python Control Flow: Conditional logic, loops and iteration patterns in Python."
+  },
+  {
+    "id": "python_data_structures_boss_1",
+    "skill_id": "python_data_structures",
+    "question": "Which statement best describes the focus of Python Data Structures?",
+    "question_type": "conceptual",
+    "options": [
+      "Lists, tuples, dictionaries, sets and practical collection patterns",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Lists, tuples, dictionaries, sets and practical collection patterns",
+    "difficulty": "medium",
+    "explanation": "This directly tests understanding of Python Data Structures: Lists, tuples, dictionaries, sets and practical collection patterns."
+  },
+  {
+    "id": "python_data_structures_boss_2",
+    "skill_id": "python_data_structures",
+    "question": "Which activity most directly demonstrates practical understanding of Python Data Structures?",
+    "question_type": "mcq",
+    "options": [
+      "Apply Python Data Structures in a focused exercise and explain the result",
+      "Rename unrelated files without observing behavior",
+      "Change a display color without testing logic",
+      "Install an operating system without using the concept"
+    ],
+    "correct_answer": "Apply Python Data Structures in a focused exercise and explain the result",
+    "difficulty": "medium",
+    "explanation": "This directly tests understanding of Python Data Structures: Lists, tuples, dictionaries, sets and practical collection patterns."
+  },
+  {
+    "id": "python_data_structures_boss_3",
+    "skill_id": "python_data_structures",
+    "question": "Which statement best describes the focus of Python Data Structures?",
+    "question_type": "conceptual",
+    "options": [
+      "Lists, tuples, dictionaries, sets and practical collection patterns",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Lists, tuples, dictionaries, sets and practical collection patterns",
+    "difficulty": "hard",
+    "explanation": "This directly tests understanding of Python Data Structures: Lists, tuples, dictionaries, sets and practical collection patterns."
+  },
+  {
+    "id": "python_data_structures_boss_4",
+    "skill_id": "python_data_structures",
+    "question": "Which activity most directly demonstrates practical understanding of Python Data Structures?",
+    "question_type": "mcq",
+    "options": [
+      "Apply Python Data Structures in a focused exercise and explain the result",
+      "Rename unrelated files without observing behavior",
+      "Change a display color without testing logic",
+      "Install an operating system without using the concept"
+    ],
+    "correct_answer": "Apply Python Data Structures in a focused exercise and explain the result",
+    "difficulty": "hard",
+    "explanation": "This directly tests understanding of Python Data Structures: Lists, tuples, dictionaries, sets and practical collection patterns."
+  },
+  {
+    "id": "python_data_structures_boss_5",
+    "skill_id": "python_data_structures",
+    "question": "Which statement best describes the focus of Python Data Structures?",
+    "question_type": "conceptual",
+    "options": [
+      "Lists, tuples, dictionaries, sets and practical collection patterns",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Lists, tuples, dictionaries, sets and practical collection patterns",
+    "difficulty": "advanced",
+    "explanation": "This directly tests understanding of Python Data Structures: Lists, tuples, dictionaries, sets and practical collection patterns."
+  },
+  {
+    "id": "python_modules_boss_1",
+    "skill_id": "python_modules",
+    "question": "Which statement best describes the focus of Python Modules and Packages?",
+    "question_type": "conceptual",
+    "options": [
+      "Importing code, organizing modules and using packages",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Importing code, organizing modules and using packages",
+    "difficulty": "medium",
+    "explanation": "This directly tests understanding of Python Modules and Packages: Importing code, organizing modules and using packages."
+  },
+  {
+    "id": "python_modules_boss_2",
+    "skill_id": "python_modules",
+    "question": "Which activity most directly demonstrates practical understanding of Python Modules and Packages?",
+    "question_type": "mcq",
+    "options": [
+      "Apply Python Modules and Packages in a focused exercise and explain the result",
+      "Rename unrelated files without observing behavior",
+      "Change a display color without testing logic",
+      "Install an operating system without using the concept"
+    ],
+    "correct_answer": "Apply Python Modules and Packages in a focused exercise and explain the result",
+    "difficulty": "medium",
+    "explanation": "This directly tests understanding of Python Modules and Packages: Importing code, organizing modules and using packages."
+  },
+  {
+    "id": "python_modules_boss_3",
+    "skill_id": "python_modules",
+    "question": "Which statement best describes the focus of Python Modules and Packages?",
+    "question_type": "conceptual",
+    "options": [
+      "Importing code, organizing modules and using packages",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Importing code, organizing modules and using packages",
+    "difficulty": "hard",
+    "explanation": "This directly tests understanding of Python Modules and Packages: Importing code, organizing modules and using packages."
+  },
+  {
+    "id": "python_modules_boss_4",
+    "skill_id": "python_modules",
+    "question": "Which activity most directly demonstrates practical understanding of Python Modules and Packages?",
+    "question_type": "mcq",
+    "options": [
+      "Apply Python Modules and Packages in a focused exercise and explain the result",
+      "Rename unrelated files without observing behavior",
+      "Change a display color without testing logic",
+      "Install an operating system without using the concept"
+    ],
+    "correct_answer": "Apply Python Modules and Packages in a focused exercise and explain the result",
+    "difficulty": "hard",
+    "explanation": "This directly tests understanding of Python Modules and Packages: Importing code, organizing modules and using packages."
+  },
+  {
+    "id": "python_modules_boss_5",
+    "skill_id": "python_modules",
+    "question": "Which statement best describes the focus of Python Modules and Packages?",
+    "question_type": "conceptual",
+    "options": [
+      "Importing code, organizing modules and using packages",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Importing code, organizing modules and using packages",
+    "difficulty": "advanced",
+    "explanation": "This directly tests understanding of Python Modules and Packages: Importing code, organizing modules and using packages."
+  },
+  {
+    "id": "python_oop_boss_1",
+    "skill_id": "python_oop",
+    "question": "Which statement best describes the focus of Python Object-Oriented Programming?",
+    "question_type": "conceptual",
+    "options": [
+      "Classes, objects, inheritance and composition in Python",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Classes, objects, inheritance and composition in Python",
+    "difficulty": "medium",
+    "explanation": "This directly tests understanding of Python Object-Oriented Programming: Classes, objects, inheritance and composition in Python."
+  },
+  {
+    "id": "python_oop_boss_2",
+    "skill_id": "python_oop",
+    "question": "Which activity most directly demonstrates practical understanding of Python Object-Oriented Programming?",
+    "question_type": "mcq",
+    "options": [
+      "Apply Python Object-Oriented Programming in a focused exercise and explain the result",
+      "Rename unrelated files without observing behavior",
+      "Change a display color without testing logic",
+      "Install an operating system without using the concept"
+    ],
+    "correct_answer": "Apply Python Object-Oriented Programming in a focused exercise and explain the result",
+    "difficulty": "medium",
+    "explanation": "This directly tests understanding of Python Object-Oriented Programming: Classes, objects, inheritance and composition in Python."
+  },
+  {
+    "id": "python_oop_boss_3",
+    "skill_id": "python_oop",
+    "question": "Which statement best describes the focus of Python Object-Oriented Programming?",
+    "question_type": "conceptual",
+    "options": [
+      "Classes, objects, inheritance and composition in Python",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Classes, objects, inheritance and composition in Python",
+    "difficulty": "hard",
+    "explanation": "This directly tests understanding of Python Object-Oriented Programming: Classes, objects, inheritance and composition in Python."
+  },
+  {
+    "id": "python_oop_boss_4",
+    "skill_id": "python_oop",
+    "question": "Which activity most directly demonstrates practical understanding of Python Object-Oriented Programming?",
+    "question_type": "mcq",
+    "options": [
+      "Apply Python Object-Oriented Programming in a focused exercise and explain the result",
+      "Rename unrelated files without observing behavior",
+      "Change a display color without testing logic",
+      "Install an operating system without using the concept"
+    ],
+    "correct_answer": "Apply Python Object-Oriented Programming in a focused exercise and explain the result",
+    "difficulty": "hard",
+    "explanation": "This directly tests understanding of Python Object-Oriented Programming: Classes, objects, inheritance and composition in Python."
+  },
+  {
+    "id": "python_oop_boss_5",
+    "skill_id": "python_oop",
+    "question": "Which statement best describes the focus of Python Object-Oriented Programming?",
+    "question_type": "conceptual",
+    "options": [
+      "Classes, objects, inheritance and composition in Python",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Classes, objects, inheritance and composition in Python",
+    "difficulty": "advanced",
+    "explanation": "This directly tests understanding of Python Object-Oriented Programming: Classes, objects, inheritance and composition in Python."
+  },
+  {
+    "id": "python_file_handling_boss_1",
+    "skill_id": "python_file_handling",
+    "question": "Which statement best describes the focus of Python File Handling?",
+    "question_type": "conceptual",
+    "options": [
+      "Reading, writing and working with files and paths",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Reading, writing and working with files and paths",
+    "difficulty": "medium",
+    "explanation": "This directly tests understanding of Python File Handling: Reading, writing and working with files and paths."
+  },
+  {
+    "id": "python_file_handling_boss_2",
+    "skill_id": "python_file_handling",
+    "question": "Which activity most directly demonstrates practical understanding of Python File Handling?",
+    "question_type": "mcq",
+    "options": [
+      "Apply Python File Handling in a focused exercise and explain the result",
+      "Rename unrelated files without observing behavior",
+      "Change a display color without testing logic",
+      "Install an operating system without using the concept"
+    ],
+    "correct_answer": "Apply Python File Handling in a focused exercise and explain the result",
+    "difficulty": "medium",
+    "explanation": "This directly tests understanding of Python File Handling: Reading, writing and working with files and paths."
+  },
+  {
+    "id": "python_file_handling_boss_3",
+    "skill_id": "python_file_handling",
+    "question": "Which statement best describes the focus of Python File Handling?",
+    "question_type": "conceptual",
+    "options": [
+      "Reading, writing and working with files and paths",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Reading, writing and working with files and paths",
+    "difficulty": "hard",
+    "explanation": "This directly tests understanding of Python File Handling: Reading, writing and working with files and paths."
+  },
+  {
+    "id": "python_file_handling_boss_4",
+    "skill_id": "python_file_handling",
+    "question": "Which activity most directly demonstrates practical understanding of Python File Handling?",
+    "question_type": "mcq",
+    "options": [
+      "Apply Python File Handling in a focused exercise and explain the result",
+      "Rename unrelated files without observing behavior",
+      "Change a display color without testing logic",
+      "Install an operating system without using the concept"
+    ],
+    "correct_answer": "Apply Python File Handling in a focused exercise and explain the result",
+    "difficulty": "hard",
+    "explanation": "This directly tests understanding of Python File Handling: Reading, writing and working with files and paths."
+  },
+  {
+    "id": "python_file_handling_boss_5",
+    "skill_id": "python_file_handling",
+    "question": "Which statement best describes the focus of Python File Handling?",
+    "question_type": "conceptual",
+    "options": [
+      "Reading, writing and working with files and paths",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Reading, writing and working with files and paths",
+    "difficulty": "advanced",
+    "explanation": "This directly tests understanding of Python File Handling: Reading, writing and working with files and paths."
+  },
+  {
+    "id": "python_exceptions_boss_1",
+    "skill_id": "python_exceptions",
+    "question": "Which statement best describes the focus of Python Exceptions?",
+    "question_type": "conceptual",
+    "options": [
+      "Handling errors with exceptions and defensive program flow",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Handling errors with exceptions and defensive program flow",
+    "difficulty": "medium",
+    "explanation": "This directly tests understanding of Python Exceptions: Handling errors with exceptions and defensive program flow."
+  },
+  {
+    "id": "python_exceptions_boss_2",
+    "skill_id": "python_exceptions",
+    "question": "Which activity most directly demonstrates practical understanding of Python Exceptions?",
+    "question_type": "mcq",
+    "options": [
+      "Apply Python Exceptions in a focused exercise and explain the result",
+      "Rename unrelated files without observing behavior",
+      "Change a display color without testing logic",
+      "Install an operating system without using the concept"
+    ],
+    "correct_answer": "Apply Python Exceptions in a focused exercise and explain the result",
+    "difficulty": "medium",
+    "explanation": "This directly tests understanding of Python Exceptions: Handling errors with exceptions and defensive program flow."
+  },
+  {
+    "id": "python_exceptions_boss_3",
+    "skill_id": "python_exceptions",
+    "question": "Which statement best describes the focus of Python Exceptions?",
+    "question_type": "conceptual",
+    "options": [
+      "Handling errors with exceptions and defensive program flow",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Handling errors with exceptions and defensive program flow",
+    "difficulty": "hard",
+    "explanation": "This directly tests understanding of Python Exceptions: Handling errors with exceptions and defensive program flow."
+  },
+  {
+    "id": "python_exceptions_boss_4",
+    "skill_id": "python_exceptions",
+    "question": "Which activity most directly demonstrates practical understanding of Python Exceptions?",
+    "question_type": "mcq",
+    "options": [
+      "Apply Python Exceptions in a focused exercise and explain the result",
+      "Rename unrelated files without observing behavior",
+      "Change a display color without testing logic",
+      "Install an operating system without using the concept"
+    ],
+    "correct_answer": "Apply Python Exceptions in a focused exercise and explain the result",
+    "difficulty": "hard",
+    "explanation": "This directly tests understanding of Python Exceptions: Handling errors with exceptions and defensive program flow."
+  },
+  {
+    "id": "python_exceptions_boss_5",
+    "skill_id": "python_exceptions",
+    "question": "Which statement best describes the focus of Python Exceptions?",
+    "question_type": "conceptual",
+    "options": [
+      "Handling errors with exceptions and defensive program flow",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Handling errors with exceptions and defensive program flow",
+    "difficulty": "advanced",
+    "explanation": "This directly tests understanding of Python Exceptions: Handling errors with exceptions and defensive program flow."
+  },
+  {
+    "id": "python_virtual_environments_boss_1",
+    "skill_id": "python_virtual_environments",
+    "question": "Which statement best describes the focus of Python Virtual Environments?",
+    "question_type": "conceptual",
+    "options": [
+      "Isolating project dependencies and managing Python environments",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Isolating project dependencies and managing Python environments",
+    "difficulty": "medium",
+    "explanation": "This directly tests understanding of Python Virtual Environments: Isolating project dependencies and managing Python environments."
+  },
+  {
+    "id": "python_virtual_environments_boss_2",
+    "skill_id": "python_virtual_environments",
+    "question": "Which activity most directly demonstrates practical understanding of Python Virtual Environments?",
+    "question_type": "mcq",
+    "options": [
+      "Apply Python Virtual Environments in a focused exercise and explain the result",
+      "Rename unrelated files without observing behavior",
+      "Change a display color without testing logic",
+      "Install an operating system without using the concept"
+    ],
+    "correct_answer": "Apply Python Virtual Environments in a focused exercise and explain the result",
+    "difficulty": "medium",
+    "explanation": "This directly tests understanding of Python Virtual Environments: Isolating project dependencies and managing Python environments."
+  },
+  {
+    "id": "python_virtual_environments_boss_3",
+    "skill_id": "python_virtual_environments",
+    "question": "Which statement best describes the focus of Python Virtual Environments?",
+    "question_type": "conceptual",
+    "options": [
+      "Isolating project dependencies and managing Python environments",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Isolating project dependencies and managing Python environments",
+    "difficulty": "hard",
+    "explanation": "This directly tests understanding of Python Virtual Environments: Isolating project dependencies and managing Python environments."
+  },
+  {
+    "id": "python_virtual_environments_boss_4",
+    "skill_id": "python_virtual_environments",
+    "question": "Which activity most directly demonstrates practical understanding of Python Virtual Environments?",
+    "question_type": "mcq",
+    "options": [
+      "Apply Python Virtual Environments in a focused exercise and explain the result",
+      "Rename unrelated files without observing behavior",
+      "Change a display color without testing logic",
+      "Install an operating system without using the concept"
+    ],
+    "correct_answer": "Apply Python Virtual Environments in a focused exercise and explain the result",
+    "difficulty": "hard",
+    "explanation": "This directly tests understanding of Python Virtual Environments: Isolating project dependencies and managing Python environments."
+  },
+  {
+    "id": "python_virtual_environments_boss_5",
+    "skill_id": "python_virtual_environments",
+    "question": "Which statement best describes the focus of Python Virtual Environments?",
+    "question_type": "conceptual",
+    "options": [
+      "Isolating project dependencies and managing Python environments",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Isolating project dependencies and managing Python environments",
+    "difficulty": "advanced",
+    "explanation": "This directly tests understanding of Python Virtual Environments: Isolating project dependencies and managing Python environments."
+  },
+  {
+    "id": "cpp_basics_boss_1",
+    "skill_id": "cpp_basics",
+    "question": "Which statement best describes the focus of C++ Basics?",
+    "question_type": "conceptual",
+    "options": [
+      "Types, variables, operators and program structure in C++",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Types, variables, operators and program structure in C++",
+    "difficulty": "medium",
+    "explanation": "This directly tests understanding of C++ Basics: Types, variables, operators and program structure in C++."
+  },
+  {
+    "id": "cpp_basics_boss_2",
+    "skill_id": "cpp_basics",
+    "question": "Which activity most directly demonstrates practical understanding of C++ Basics?",
+    "question_type": "mcq",
+    "options": [
+      "Apply C++ Basics in a focused exercise and explain the result",
+      "Rename unrelated files without observing behavior",
+      "Change a display color without testing logic",
+      "Install an operating system without using the concept"
+    ],
+    "correct_answer": "Apply C++ Basics in a focused exercise and explain the result",
+    "difficulty": "medium",
+    "explanation": "This directly tests understanding of C++ Basics: Types, variables, operators and program structure in C++."
+  },
+  {
+    "id": "cpp_basics_boss_3",
+    "skill_id": "cpp_basics",
+    "question": "Which statement best describes the focus of C++ Basics?",
+    "question_type": "conceptual",
+    "options": [
+      "Types, variables, operators and program structure in C++",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Types, variables, operators and program structure in C++",
+    "difficulty": "hard",
+    "explanation": "This directly tests understanding of C++ Basics: Types, variables, operators and program structure in C++."
+  },
+  {
+    "id": "cpp_basics_boss_4",
+    "skill_id": "cpp_basics",
+    "question": "Which activity most directly demonstrates practical understanding of C++ Basics?",
+    "question_type": "mcq",
+    "options": [
+      "Apply C++ Basics in a focused exercise and explain the result",
+      "Rename unrelated files without observing behavior",
+      "Change a display color without testing logic",
+      "Install an operating system without using the concept"
+    ],
+    "correct_answer": "Apply C++ Basics in a focused exercise and explain the result",
+    "difficulty": "hard",
+    "explanation": "This directly tests understanding of C++ Basics: Types, variables, operators and program structure in C++."
+  },
+  {
+    "id": "cpp_basics_boss_5",
+    "skill_id": "cpp_basics",
+    "question": "Which statement best describes the focus of C++ Basics?",
+    "question_type": "conceptual",
+    "options": [
+      "Types, variables, operators and program structure in C++",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Types, variables, operators and program structure in C++",
+    "difficulty": "advanced",
+    "explanation": "This directly tests understanding of C++ Basics: Types, variables, operators and program structure in C++."
+  },
+  {
+    "id": "cpp_control_flow_boss_1",
+    "skill_id": "cpp_control_flow",
+    "question": "Which statement best describes the focus of C++ Control Flow?",
+    "question_type": "conceptual",
+    "options": [
+      "Conditions, loops and iteration patterns in C++",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Conditions, loops and iteration patterns in C++",
+    "difficulty": "medium",
+    "explanation": "This directly tests understanding of C++ Control Flow: Conditions, loops and iteration patterns in C++."
+  },
+  {
+    "id": "cpp_control_flow_boss_2",
+    "skill_id": "cpp_control_flow",
+    "question": "Which activity most directly demonstrates practical understanding of C++ Control Flow?",
+    "question_type": "mcq",
+    "options": [
+      "Apply C++ Control Flow in a focused exercise and explain the result",
+      "Rename unrelated files without observing behavior",
+      "Change a display color without testing logic",
+      "Install an operating system without using the concept"
+    ],
+    "correct_answer": "Apply C++ Control Flow in a focused exercise and explain the result",
+    "difficulty": "medium",
+    "explanation": "This directly tests understanding of C++ Control Flow: Conditions, loops and iteration patterns in C++."
+  },
+  {
+    "id": "cpp_control_flow_boss_3",
+    "skill_id": "cpp_control_flow",
+    "question": "Which statement best describes the focus of C++ Control Flow?",
+    "question_type": "conceptual",
+    "options": [
+      "Conditions, loops and iteration patterns in C++",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Conditions, loops and iteration patterns in C++",
+    "difficulty": "hard",
+    "explanation": "This directly tests understanding of C++ Control Flow: Conditions, loops and iteration patterns in C++."
+  },
+  {
+    "id": "cpp_control_flow_boss_4",
+    "skill_id": "cpp_control_flow",
+    "question": "Which activity most directly demonstrates practical understanding of C++ Control Flow?",
+    "question_type": "mcq",
+    "options": [
+      "Apply C++ Control Flow in a focused exercise and explain the result",
+      "Rename unrelated files without observing behavior",
+      "Change a display color without testing logic",
+      "Install an operating system without using the concept"
+    ],
+    "correct_answer": "Apply C++ Control Flow in a focused exercise and explain the result",
+    "difficulty": "hard",
+    "explanation": "This directly tests understanding of C++ Control Flow: Conditions, loops and iteration patterns in C++."
+  },
+  {
+    "id": "cpp_control_flow_boss_5",
+    "skill_id": "cpp_control_flow",
+    "question": "Which statement best describes the focus of C++ Control Flow?",
+    "question_type": "conceptual",
+    "options": [
+      "Conditions, loops and iteration patterns in C++",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Conditions, loops and iteration patterns in C++",
+    "difficulty": "advanced",
+    "explanation": "This directly tests understanding of C++ Control Flow: Conditions, loops and iteration patterns in C++."
+  },
+  {
+    "id": "cpp_functions_boss_1",
+    "skill_id": "cpp_functions",
+    "question": "Which statement best describes the focus of C++ Functions?",
+    "question_type": "conceptual",
+    "options": [
+      "Function declarations, parameters, return values and scope",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Function declarations, parameters, return values and scope",
+    "difficulty": "medium",
+    "explanation": "This directly tests understanding of C++ Functions: Function declarations, parameters, return values and scope."
+  },
+  {
+    "id": "cpp_functions_boss_2",
+    "skill_id": "cpp_functions",
+    "question": "Which activity most directly demonstrates practical understanding of C++ Functions?",
+    "question_type": "mcq",
+    "options": [
+      "Apply C++ Functions in a focused exercise and explain the result",
+      "Rename unrelated files without observing behavior",
+      "Change a display color without testing logic",
+      "Install an operating system without using the concept"
+    ],
+    "correct_answer": "Apply C++ Functions in a focused exercise and explain the result",
+    "difficulty": "medium",
+    "explanation": "This directly tests understanding of C++ Functions: Function declarations, parameters, return values and scope."
+  },
+  {
+    "id": "cpp_functions_boss_3",
+    "skill_id": "cpp_functions",
+    "question": "Which statement best describes the focus of C++ Functions?",
+    "question_type": "conceptual",
+    "options": [
+      "Function declarations, parameters, return values and scope",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Function declarations, parameters, return values and scope",
+    "difficulty": "hard",
+    "explanation": "This directly tests understanding of C++ Functions: Function declarations, parameters, return values and scope."
+  },
+  {
+    "id": "cpp_functions_boss_4",
+    "skill_id": "cpp_functions",
+    "question": "Which activity most directly demonstrates practical understanding of C++ Functions?",
+    "question_type": "mcq",
+    "options": [
+      "Apply C++ Functions in a focused exercise and explain the result",
+      "Rename unrelated files without observing behavior",
+      "Change a display color without testing logic",
+      "Install an operating system without using the concept"
+    ],
+    "correct_answer": "Apply C++ Functions in a focused exercise and explain the result",
+    "difficulty": "hard",
+    "explanation": "This directly tests understanding of C++ Functions: Function declarations, parameters, return values and scope."
+  },
+  {
+    "id": "cpp_functions_boss_5",
+    "skill_id": "cpp_functions",
+    "question": "Which statement best describes the focus of C++ Functions?",
+    "question_type": "conceptual",
+    "options": [
+      "Function declarations, parameters, return values and scope",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Function declarations, parameters, return values and scope",
+    "difficulty": "advanced",
+    "explanation": "This directly tests understanding of C++ Functions: Function declarations, parameters, return values and scope."
+  },
+  {
+    "id": "cpp_arrays_strings_boss_1",
+    "skill_id": "cpp_arrays_strings",
+    "question": "Which statement best describes the focus of C++ Arrays and Strings?",
+    "question_type": "conceptual",
+    "options": [
+      "Built-in arrays, strings and common sequence operations",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Built-in arrays, strings and common sequence operations",
+    "difficulty": "medium",
+    "explanation": "This directly tests understanding of C++ Arrays and Strings: Built-in arrays, strings and common sequence operations."
+  },
+  {
+    "id": "cpp_arrays_strings_boss_2",
+    "skill_id": "cpp_arrays_strings",
+    "question": "Which activity most directly demonstrates practical understanding of C++ Arrays and Strings?",
+    "question_type": "mcq",
+    "options": [
+      "Apply C++ Arrays and Strings in a focused exercise and explain the result",
+      "Rename unrelated files without observing behavior",
+      "Change a display color without testing logic",
+      "Install an operating system without using the concept"
+    ],
+    "correct_answer": "Apply C++ Arrays and Strings in a focused exercise and explain the result",
+    "difficulty": "medium",
+    "explanation": "This directly tests understanding of C++ Arrays and Strings: Built-in arrays, strings and common sequence operations."
+  },
+  {
+    "id": "cpp_arrays_strings_boss_3",
+    "skill_id": "cpp_arrays_strings",
+    "question": "Which statement best describes the focus of C++ Arrays and Strings?",
+    "question_type": "conceptual",
+    "options": [
+      "Built-in arrays, strings and common sequence operations",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Built-in arrays, strings and common sequence operations",
+    "difficulty": "hard",
+    "explanation": "This directly tests understanding of C++ Arrays and Strings: Built-in arrays, strings and common sequence operations."
+  },
+  {
+    "id": "cpp_arrays_strings_boss_4",
+    "skill_id": "cpp_arrays_strings",
+    "question": "Which activity most directly demonstrates practical understanding of C++ Arrays and Strings?",
+    "question_type": "mcq",
+    "options": [
+      "Apply C++ Arrays and Strings in a focused exercise and explain the result",
+      "Rename unrelated files without observing behavior",
+      "Change a display color without testing logic",
+      "Install an operating system without using the concept"
+    ],
+    "correct_answer": "Apply C++ Arrays and Strings in a focused exercise and explain the result",
+    "difficulty": "hard",
+    "explanation": "This directly tests understanding of C++ Arrays and Strings: Built-in arrays, strings and common sequence operations."
+  },
+  {
+    "id": "cpp_arrays_strings_boss_5",
+    "skill_id": "cpp_arrays_strings",
+    "question": "Which statement best describes the focus of C++ Arrays and Strings?",
+    "question_type": "conceptual",
+    "options": [
+      "Built-in arrays, strings and common sequence operations",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Built-in arrays, strings and common sequence operations",
+    "difficulty": "advanced",
+    "explanation": "This directly tests understanding of C++ Arrays and Strings: Built-in arrays, strings and common sequence operations."
+  },
+  {
+    "id": "cpp_pointers_boss_1",
+    "skill_id": "cpp_pointers",
+    "question": "Which statement best describes the focus of C++ Pointers and References?",
+    "question_type": "conceptual",
+    "options": [
+      "Addresses, pointers, references and resource ownership basics",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Addresses, pointers, references and resource ownership basics",
+    "difficulty": "medium",
+    "explanation": "This directly tests understanding of C++ Pointers and References: Addresses, pointers, references and resource ownership basics."
+  },
+  {
+    "id": "cpp_pointers_boss_2",
+    "skill_id": "cpp_pointers",
+    "question": "Which activity most directly demonstrates practical understanding of C++ Pointers and References?",
+    "question_type": "mcq",
+    "options": [
+      "Apply C++ Pointers and References in a focused exercise and explain the result",
+      "Rename unrelated files without observing behavior",
+      "Change a display color without testing logic",
+      "Install an operating system without using the concept"
+    ],
+    "correct_answer": "Apply C++ Pointers and References in a focused exercise and explain the result",
+    "difficulty": "medium",
+    "explanation": "This directly tests understanding of C++ Pointers and References: Addresses, pointers, references and resource ownership basics."
+  },
+  {
+    "id": "cpp_pointers_boss_3",
+    "skill_id": "cpp_pointers",
+    "question": "Which statement best describes the focus of C++ Pointers and References?",
+    "question_type": "conceptual",
+    "options": [
+      "Addresses, pointers, references and resource ownership basics",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Addresses, pointers, references and resource ownership basics",
+    "difficulty": "hard",
+    "explanation": "This directly tests understanding of C++ Pointers and References: Addresses, pointers, references and resource ownership basics."
+  },
+  {
+    "id": "cpp_pointers_boss_4",
+    "skill_id": "cpp_pointers",
+    "question": "Which activity most directly demonstrates practical understanding of C++ Pointers and References?",
+    "question_type": "mcq",
+    "options": [
+      "Apply C++ Pointers and References in a focused exercise and explain the result",
+      "Rename unrelated files without observing behavior",
+      "Change a display color without testing logic",
+      "Install an operating system without using the concept"
+    ],
+    "correct_answer": "Apply C++ Pointers and References in a focused exercise and explain the result",
+    "difficulty": "hard",
+    "explanation": "This directly tests understanding of C++ Pointers and References: Addresses, pointers, references and resource ownership basics."
+  },
+  {
+    "id": "cpp_pointers_boss_5",
+    "skill_id": "cpp_pointers",
+    "question": "Which statement best describes the focus of C++ Pointers and References?",
+    "question_type": "conceptual",
+    "options": [
+      "Addresses, pointers, references and resource ownership basics",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Addresses, pointers, references and resource ownership basics",
+    "difficulty": "advanced",
+    "explanation": "This directly tests understanding of C++ Pointers and References: Addresses, pointers, references and resource ownership basics."
+  },
+  {
+    "id": "cpp_oop_boss_1",
+    "skill_id": "cpp_oop",
+    "question": "Which statement best describes the focus of C++ Object-Oriented Programming?",
+    "question_type": "conceptual",
+    "options": [
+      "Classes, objects, inheritance and polymorphism in C++",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Classes, objects, inheritance and polymorphism in C++",
+    "difficulty": "medium",
+    "explanation": "This directly tests understanding of C++ Object-Oriented Programming: Classes, objects, inheritance and polymorphism in C++."
+  },
+  {
+    "id": "cpp_oop_boss_2",
+    "skill_id": "cpp_oop",
+    "question": "Which activity most directly demonstrates practical understanding of C++ Object-Oriented Programming?",
+    "question_type": "mcq",
+    "options": [
+      "Apply C++ Object-Oriented Programming in a focused exercise and explain the result",
+      "Rename unrelated files without observing behavior",
+      "Change a display color without testing logic",
+      "Install an operating system without using the concept"
+    ],
+    "correct_answer": "Apply C++ Object-Oriented Programming in a focused exercise and explain the result",
+    "difficulty": "medium",
+    "explanation": "This directly tests understanding of C++ Object-Oriented Programming: Classes, objects, inheritance and polymorphism in C++."
+  },
+  {
+    "id": "cpp_oop_boss_3",
+    "skill_id": "cpp_oop",
+    "question": "Which statement best describes the focus of C++ Object-Oriented Programming?",
+    "question_type": "conceptual",
+    "options": [
+      "Classes, objects, inheritance and polymorphism in C++",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Classes, objects, inheritance and polymorphism in C++",
+    "difficulty": "hard",
+    "explanation": "This directly tests understanding of C++ Object-Oriented Programming: Classes, objects, inheritance and polymorphism in C++."
+  },
+  {
+    "id": "cpp_oop_boss_4",
+    "skill_id": "cpp_oop",
+    "question": "Which activity most directly demonstrates practical understanding of C++ Object-Oriented Programming?",
+    "question_type": "mcq",
+    "options": [
+      "Apply C++ Object-Oriented Programming in a focused exercise and explain the result",
+      "Rename unrelated files without observing behavior",
+      "Change a display color without testing logic",
+      "Install an operating system without using the concept"
+    ],
+    "correct_answer": "Apply C++ Object-Oriented Programming in a focused exercise and explain the result",
+    "difficulty": "hard",
+    "explanation": "This directly tests understanding of C++ Object-Oriented Programming: Classes, objects, inheritance and polymorphism in C++."
+  },
+  {
+    "id": "cpp_oop_boss_5",
+    "skill_id": "cpp_oop",
+    "question": "Which statement best describes the focus of C++ Object-Oriented Programming?",
+    "question_type": "conceptual",
+    "options": [
+      "Classes, objects, inheritance and polymorphism in C++",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Classes, objects, inheritance and polymorphism in C++",
+    "difficulty": "advanced",
+    "explanation": "This directly tests understanding of C++ Object-Oriented Programming: Classes, objects, inheritance and polymorphism in C++."
+  },
+  {
+    "id": "cpp_stl_boss_1",
+    "skill_id": "cpp_stl",
+    "question": "Which statement best describes the focus of C++ Standard Template Library?",
+    "question_type": "conceptual",
+    "options": [
+      "Using standard containers, iterators and algorithms",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Using standard containers, iterators and algorithms",
+    "difficulty": "medium",
+    "explanation": "This directly tests understanding of C++ Standard Template Library: Using standard containers, iterators and algorithms."
+  },
+  {
+    "id": "cpp_stl_boss_2",
+    "skill_id": "cpp_stl",
+    "question": "Which activity most directly demonstrates practical understanding of C++ Standard Template Library?",
+    "question_type": "mcq",
+    "options": [
+      "Apply C++ Standard Template Library in a focused exercise and explain the result",
+      "Rename unrelated files without observing behavior",
+      "Change a display color without testing logic",
+      "Install an operating system without using the concept"
+    ],
+    "correct_answer": "Apply C++ Standard Template Library in a focused exercise and explain the result",
+    "difficulty": "medium",
+    "explanation": "This directly tests understanding of C++ Standard Template Library: Using standard containers, iterators and algorithms."
+  },
+  {
+    "id": "cpp_stl_boss_3",
+    "skill_id": "cpp_stl",
+    "question": "Which statement best describes the focus of C++ Standard Template Library?",
+    "question_type": "conceptual",
+    "options": [
+      "Using standard containers, iterators and algorithms",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Using standard containers, iterators and algorithms",
+    "difficulty": "hard",
+    "explanation": "This directly tests understanding of C++ Standard Template Library: Using standard containers, iterators and algorithms."
+  },
+  {
+    "id": "cpp_stl_boss_4",
+    "skill_id": "cpp_stl",
+    "question": "Which activity most directly demonstrates practical understanding of C++ Standard Template Library?",
+    "question_type": "mcq",
+    "options": [
+      "Apply C++ Standard Template Library in a focused exercise and explain the result",
+      "Rename unrelated files without observing behavior",
+      "Change a display color without testing logic",
+      "Install an operating system without using the concept"
+    ],
+    "correct_answer": "Apply C++ Standard Template Library in a focused exercise and explain the result",
+    "difficulty": "hard",
+    "explanation": "This directly tests understanding of C++ Standard Template Library: Using standard containers, iterators and algorithms."
+  },
+  {
+    "id": "cpp_stl_boss_5",
+    "skill_id": "cpp_stl",
+    "question": "Which statement best describes the focus of C++ Standard Template Library?",
+    "question_type": "conceptual",
+    "options": [
+      "Using standard containers, iterators and algorithms",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Using standard containers, iterators and algorithms",
+    "difficulty": "advanced",
+    "explanation": "This directly tests understanding of C++ Standard Template Library: Using standard containers, iterators and algorithms."
+  },
+  {
+    "id": "cpp_templates_boss_1",
+    "skill_id": "cpp_templates",
+    "question": "Which statement best describes the focus of C++ Templates?",
+    "question_type": "conceptual",
+    "options": [
+      "Generic programming with function and class templates",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Generic programming with function and class templates",
+    "difficulty": "medium",
+    "explanation": "This directly tests understanding of C++ Templates: Generic programming with function and class templates."
+  },
+  {
+    "id": "cpp_templates_boss_2",
+    "skill_id": "cpp_templates",
+    "question": "Which activity most directly demonstrates practical understanding of C++ Templates?",
+    "question_type": "mcq",
+    "options": [
+      "Apply C++ Templates in a focused exercise and explain the result",
+      "Rename unrelated files without observing behavior",
+      "Change a display color without testing logic",
+      "Install an operating system without using the concept"
+    ],
+    "correct_answer": "Apply C++ Templates in a focused exercise and explain the result",
+    "difficulty": "medium",
+    "explanation": "This directly tests understanding of C++ Templates: Generic programming with function and class templates."
+  },
+  {
+    "id": "cpp_templates_boss_3",
+    "skill_id": "cpp_templates",
+    "question": "Which statement best describes the focus of C++ Templates?",
+    "question_type": "conceptual",
+    "options": [
+      "Generic programming with function and class templates",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Generic programming with function and class templates",
+    "difficulty": "hard",
+    "explanation": "This directly tests understanding of C++ Templates: Generic programming with function and class templates."
+  },
+  {
+    "id": "cpp_templates_boss_4",
+    "skill_id": "cpp_templates",
+    "question": "Which activity most directly demonstrates practical understanding of C++ Templates?",
+    "question_type": "mcq",
+    "options": [
+      "Apply C++ Templates in a focused exercise and explain the result",
+      "Rename unrelated files without observing behavior",
+      "Change a display color without testing logic",
+      "Install an operating system without using the concept"
+    ],
+    "correct_answer": "Apply C++ Templates in a focused exercise and explain the result",
+    "difficulty": "hard",
+    "explanation": "This directly tests understanding of C++ Templates: Generic programming with function and class templates."
+  },
+  {
+    "id": "cpp_templates_boss_5",
+    "skill_id": "cpp_templates",
+    "question": "Which statement best describes the focus of C++ Templates?",
+    "question_type": "conceptual",
+    "options": [
+      "Generic programming with function and class templates",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Generic programming with function and class templates",
+    "difficulty": "advanced",
+    "explanation": "This directly tests understanding of C++ Templates: Generic programming with function and class templates."
+  },
+  {
+    "id": "cpp_modern_boss_1",
+    "skill_id": "cpp_modern",
+    "question": "Which statement best describes the focus of Modern C++ Basics?",
+    "question_type": "conceptual",
+    "options": [
+      "Modern C++ features including auto, smart pointers and move semantics",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Modern C++ features including auto, smart pointers and move semantics",
+    "difficulty": "medium",
+    "explanation": "This directly tests understanding of Modern C++ Basics: Modern C++ features including auto, smart pointers and move semantics."
+  },
+  {
+    "id": "cpp_modern_boss_2",
+    "skill_id": "cpp_modern",
+    "question": "Which activity most directly demonstrates practical understanding of Modern C++ Basics?",
+    "question_type": "mcq",
+    "options": [
+      "Apply Modern C++ Basics in a focused exercise and explain the result",
+      "Rename unrelated files without observing behavior",
+      "Change a display color without testing logic",
+      "Install an operating system without using the concept"
+    ],
+    "correct_answer": "Apply Modern C++ Basics in a focused exercise and explain the result",
+    "difficulty": "medium",
+    "explanation": "This directly tests understanding of Modern C++ Basics: Modern C++ features including auto, smart pointers and move semantics."
+  },
+  {
+    "id": "cpp_modern_boss_3",
+    "skill_id": "cpp_modern",
+    "question": "Which statement best describes the focus of Modern C++ Basics?",
+    "question_type": "conceptual",
+    "options": [
+      "Modern C++ features including auto, smart pointers and move semantics",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Modern C++ features including auto, smart pointers and move semantics",
+    "difficulty": "hard",
+    "explanation": "This directly tests understanding of Modern C++ Basics: Modern C++ features including auto, smart pointers and move semantics."
+  },
+  {
+    "id": "cpp_modern_boss_4",
+    "skill_id": "cpp_modern",
+    "question": "Which activity most directly demonstrates practical understanding of Modern C++ Basics?",
+    "question_type": "mcq",
+    "options": [
+      "Apply Modern C++ Basics in a focused exercise and explain the result",
+      "Rename unrelated files without observing behavior",
+      "Change a display color without testing logic",
+      "Install an operating system without using the concept"
+    ],
+    "correct_answer": "Apply Modern C++ Basics in a focused exercise and explain the result",
+    "difficulty": "hard",
+    "explanation": "This directly tests understanding of Modern C++ Basics: Modern C++ features including auto, smart pointers and move semantics."
+  },
+  {
+    "id": "cpp_modern_boss_5",
+    "skill_id": "cpp_modern",
+    "question": "Which statement best describes the focus of Modern C++ Basics?",
+    "question_type": "conceptual",
+    "options": [
+      "Modern C++ features including auto, smart pointers and move semantics",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Modern C++ features including auto, smart pointers and move semantics",
+    "difficulty": "advanced",
+    "explanation": "This directly tests understanding of Modern C++ Basics: Modern C++ features including auto, smart pointers and move semantics."
+  },
+  {
+    "id": "dsa_complexity_boss_1",
+    "skill_id": "dsa_complexity",
+    "question": "Which statement best describes the focus of Complexity Analysis?",
+    "question_type": "conceptual",
+    "options": [
+      "Reasoning about time and space complexity using Big O notation",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Reasoning about time and space complexity using Big O notation",
+    "difficulty": "medium",
+    "explanation": "This directly tests understanding of Complexity Analysis: Reasoning about time and space complexity using Big O notation."
+  },
+  {
+    "id": "dsa_complexity_boss_2",
+    "skill_id": "dsa_complexity",
+    "question": "Which activity most directly demonstrates practical understanding of Complexity Analysis?",
+    "question_type": "mcq",
+    "options": [
+      "Apply Complexity Analysis in a focused exercise and explain the result",
+      "Rename unrelated files without observing behavior",
+      "Change a display color without testing logic",
+      "Install an operating system without using the concept"
+    ],
+    "correct_answer": "Apply Complexity Analysis in a focused exercise and explain the result",
+    "difficulty": "medium",
+    "explanation": "This directly tests understanding of Complexity Analysis: Reasoning about time and space complexity using Big O notation."
+  },
+  {
+    "id": "dsa_complexity_boss_3",
+    "skill_id": "dsa_complexity",
+    "question": "Which statement best describes the focus of Complexity Analysis?",
+    "question_type": "conceptual",
+    "options": [
+      "Reasoning about time and space complexity using Big O notation",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Reasoning about time and space complexity using Big O notation",
+    "difficulty": "hard",
+    "explanation": "This directly tests understanding of Complexity Analysis: Reasoning about time and space complexity using Big O notation."
+  },
+  {
+    "id": "dsa_complexity_boss_4",
+    "skill_id": "dsa_complexity",
+    "question": "Which activity most directly demonstrates practical understanding of Complexity Analysis?",
+    "question_type": "mcq",
+    "options": [
+      "Apply Complexity Analysis in a focused exercise and explain the result",
+      "Rename unrelated files without observing behavior",
+      "Change a display color without testing logic",
+      "Install an operating system without using the concept"
+    ],
+    "correct_answer": "Apply Complexity Analysis in a focused exercise and explain the result",
+    "difficulty": "hard",
+    "explanation": "This directly tests understanding of Complexity Analysis: Reasoning about time and space complexity using Big O notation."
+  },
+  {
+    "id": "dsa_complexity_boss_5",
+    "skill_id": "dsa_complexity",
+    "question": "Which statement best describes the focus of Complexity Analysis?",
+    "question_type": "conceptual",
+    "options": [
+      "Reasoning about time and space complexity using Big O notation",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Reasoning about time and space complexity using Big O notation",
+    "difficulty": "advanced",
+    "explanation": "This directly tests understanding of Complexity Analysis: Reasoning about time and space complexity using Big O notation."
+  },
+  {
+    "id": "dsa_arrays_boss_1",
+    "skill_id": "dsa_arrays",
+    "question": "Which statement best describes the focus of Arrays?",
+    "question_type": "conceptual",
+    "options": [
+      "Array operations, traversal and common problem-solving patterns",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Array operations, traversal and common problem-solving patterns",
+    "difficulty": "medium",
+    "explanation": "This directly tests understanding of Arrays: Array operations, traversal and common problem-solving patterns."
+  },
+  {
+    "id": "dsa_arrays_boss_2",
+    "skill_id": "dsa_arrays",
+    "question": "Which activity most directly demonstrates practical understanding of Arrays?",
+    "question_type": "mcq",
+    "options": [
+      "Apply Arrays in a focused exercise and explain the result",
+      "Rename unrelated files without observing behavior",
+      "Change a display color without testing logic",
+      "Install an operating system without using the concept"
+    ],
+    "correct_answer": "Apply Arrays in a focused exercise and explain the result",
+    "difficulty": "medium",
+    "explanation": "This directly tests understanding of Arrays: Array operations, traversal and common problem-solving patterns."
+  },
+  {
+    "id": "dsa_arrays_boss_3",
+    "skill_id": "dsa_arrays",
+    "question": "Which statement best describes the focus of Arrays?",
+    "question_type": "conceptual",
+    "options": [
+      "Array operations, traversal and common problem-solving patterns",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Array operations, traversal and common problem-solving patterns",
+    "difficulty": "hard",
+    "explanation": "This directly tests understanding of Arrays: Array operations, traversal and common problem-solving patterns."
+  },
+  {
+    "id": "dsa_arrays_boss_4",
+    "skill_id": "dsa_arrays",
+    "question": "Which activity most directly demonstrates practical understanding of Arrays?",
+    "question_type": "mcq",
+    "options": [
+      "Apply Arrays in a focused exercise and explain the result",
+      "Rename unrelated files without observing behavior",
+      "Change a display color without testing logic",
+      "Install an operating system without using the concept"
+    ],
+    "correct_answer": "Apply Arrays in a focused exercise and explain the result",
+    "difficulty": "hard",
+    "explanation": "This directly tests understanding of Arrays: Array operations, traversal and common problem-solving patterns."
+  },
+  {
+    "id": "dsa_arrays_boss_5",
+    "skill_id": "dsa_arrays",
+    "question": "Which statement best describes the focus of Arrays?",
+    "question_type": "conceptual",
+    "options": [
+      "Array operations, traversal and common problem-solving patterns",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Array operations, traversal and common problem-solving patterns",
+    "difficulty": "advanced",
+    "explanation": "This directly tests understanding of Arrays: Array operations, traversal and common problem-solving patterns."
+  },
+  {
+    "id": "dsa_strings_boss_1",
+    "skill_id": "dsa_strings",
+    "question": "Which statement best describes the focus of Strings?",
+    "question_type": "conceptual",
+    "options": [
+      "String traversal, comparison and transformation techniques",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "String traversal, comparison and transformation techniques",
+    "difficulty": "medium",
+    "explanation": "This directly tests understanding of Strings: String traversal, comparison and transformation techniques."
+  },
+  {
+    "id": "dsa_strings_boss_2",
+    "skill_id": "dsa_strings",
+    "question": "Which activity most directly demonstrates practical understanding of Strings?",
+    "question_type": "mcq",
+    "options": [
+      "Apply Strings in a focused exercise and explain the result",
+      "Rename unrelated files without observing behavior",
+      "Change a display color without testing logic",
+      "Install an operating system without using the concept"
+    ],
+    "correct_answer": "Apply Strings in a focused exercise and explain the result",
+    "difficulty": "medium",
+    "explanation": "This directly tests understanding of Strings: String traversal, comparison and transformation techniques."
+  },
+  {
+    "id": "dsa_strings_boss_3",
+    "skill_id": "dsa_strings",
+    "question": "Which statement best describes the focus of Strings?",
+    "question_type": "conceptual",
+    "options": [
+      "String traversal, comparison and transformation techniques",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "String traversal, comparison and transformation techniques",
+    "difficulty": "hard",
+    "explanation": "This directly tests understanding of Strings: String traversal, comparison and transformation techniques."
+  },
+  {
+    "id": "dsa_strings_boss_4",
+    "skill_id": "dsa_strings",
+    "question": "Which activity most directly demonstrates practical understanding of Strings?",
+    "question_type": "mcq",
+    "options": [
+      "Apply Strings in a focused exercise and explain the result",
+      "Rename unrelated files without observing behavior",
+      "Change a display color without testing logic",
+      "Install an operating system without using the concept"
+    ],
+    "correct_answer": "Apply Strings in a focused exercise and explain the result",
+    "difficulty": "hard",
+    "explanation": "This directly tests understanding of Strings: String traversal, comparison and transformation techniques."
+  },
+  {
+    "id": "dsa_strings_boss_5",
+    "skill_id": "dsa_strings",
+    "question": "Which statement best describes the focus of Strings?",
+    "question_type": "conceptual",
+    "options": [
+      "String traversal, comparison and transformation techniques",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "String traversal, comparison and transformation techniques",
+    "difficulty": "advanced",
+    "explanation": "This directly tests understanding of Strings: String traversal, comparison and transformation techniques."
+  },
+  {
+    "id": "dsa_linked_lists_boss_1",
+    "skill_id": "dsa_linked_lists",
+    "question": "Which statement best describes the focus of Linked Lists?",
+    "question_type": "conceptual",
+    "options": [
+      "Nodes, links and operations on singly and doubly linked lists",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Nodes, links and operations on singly and doubly linked lists",
+    "difficulty": "medium",
+    "explanation": "This directly tests understanding of Linked Lists: Nodes, links and operations on singly and doubly linked lists."
+  },
+  {
+    "id": "dsa_linked_lists_boss_2",
+    "skill_id": "dsa_linked_lists",
+    "question": "Which activity most directly demonstrates practical understanding of Linked Lists?",
+    "question_type": "mcq",
+    "options": [
+      "Apply Linked Lists in a focused exercise and explain the result",
+      "Rename unrelated files without observing behavior",
+      "Change a display color without testing logic",
+      "Install an operating system without using the concept"
+    ],
+    "correct_answer": "Apply Linked Lists in a focused exercise and explain the result",
+    "difficulty": "medium",
+    "explanation": "This directly tests understanding of Linked Lists: Nodes, links and operations on singly and doubly linked lists."
+  },
+  {
+    "id": "dsa_linked_lists_boss_3",
+    "skill_id": "dsa_linked_lists",
+    "question": "Which statement best describes the focus of Linked Lists?",
+    "question_type": "conceptual",
+    "options": [
+      "Nodes, links and operations on singly and doubly linked lists",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Nodes, links and operations on singly and doubly linked lists",
+    "difficulty": "hard",
+    "explanation": "This directly tests understanding of Linked Lists: Nodes, links and operations on singly and doubly linked lists."
+  },
+  {
+    "id": "dsa_linked_lists_boss_4",
+    "skill_id": "dsa_linked_lists",
+    "question": "Which activity most directly demonstrates practical understanding of Linked Lists?",
+    "question_type": "mcq",
+    "options": [
+      "Apply Linked Lists in a focused exercise and explain the result",
+      "Rename unrelated files without observing behavior",
+      "Change a display color without testing logic",
+      "Install an operating system without using the concept"
+    ],
+    "correct_answer": "Apply Linked Lists in a focused exercise and explain the result",
+    "difficulty": "hard",
+    "explanation": "This directly tests understanding of Linked Lists: Nodes, links and operations on singly and doubly linked lists."
+  },
+  {
+    "id": "dsa_linked_lists_boss_5",
+    "skill_id": "dsa_linked_lists",
+    "question": "Which statement best describes the focus of Linked Lists?",
+    "question_type": "conceptual",
+    "options": [
+      "Nodes, links and operations on singly and doubly linked lists",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Nodes, links and operations on singly and doubly linked lists",
+    "difficulty": "advanced",
+    "explanation": "This directly tests understanding of Linked Lists: Nodes, links and operations on singly and doubly linked lists."
+  },
+  {
+    "id": "dsa_stacks_boss_1",
+    "skill_id": "dsa_stacks",
+    "question": "Which statement best describes the focus of Stacks?",
+    "question_type": "conceptual",
+    "options": [
+      "Last-in-first-out structures and their applications",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Last-in-first-out structures and their applications",
+    "difficulty": "medium",
+    "explanation": "This directly tests understanding of Stacks: Last-in-first-out structures and their applications."
+  },
+  {
+    "id": "dsa_stacks_boss_2",
+    "skill_id": "dsa_stacks",
+    "question": "Which activity most directly demonstrates practical understanding of Stacks?",
+    "question_type": "mcq",
+    "options": [
+      "Apply Stacks in a focused exercise and explain the result",
+      "Rename unrelated files without observing behavior",
+      "Change a display color without testing logic",
+      "Install an operating system without using the concept"
+    ],
+    "correct_answer": "Apply Stacks in a focused exercise and explain the result",
+    "difficulty": "medium",
+    "explanation": "This directly tests understanding of Stacks: Last-in-first-out structures and their applications."
+  },
+  {
+    "id": "dsa_stacks_boss_3",
+    "skill_id": "dsa_stacks",
+    "question": "Which statement best describes the focus of Stacks?",
+    "question_type": "conceptual",
+    "options": [
+      "Last-in-first-out structures and their applications",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Last-in-first-out structures and their applications",
+    "difficulty": "hard",
+    "explanation": "This directly tests understanding of Stacks: Last-in-first-out structures and their applications."
+  },
+  {
+    "id": "dsa_stacks_boss_4",
+    "skill_id": "dsa_stacks",
+    "question": "Which activity most directly demonstrates practical understanding of Stacks?",
+    "question_type": "mcq",
+    "options": [
+      "Apply Stacks in a focused exercise and explain the result",
+      "Rename unrelated files without observing behavior",
+      "Change a display color without testing logic",
+      "Install an operating system without using the concept"
+    ],
+    "correct_answer": "Apply Stacks in a focused exercise and explain the result",
+    "difficulty": "hard",
+    "explanation": "This directly tests understanding of Stacks: Last-in-first-out structures and their applications."
+  },
+  {
+    "id": "dsa_stacks_boss_5",
+    "skill_id": "dsa_stacks",
+    "question": "Which statement best describes the focus of Stacks?",
+    "question_type": "conceptual",
+    "options": [
+      "Last-in-first-out structures and their applications",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Last-in-first-out structures and their applications",
+    "difficulty": "advanced",
+    "explanation": "This directly tests understanding of Stacks: Last-in-first-out structures and their applications."
+  },
+  {
+    "id": "dsa_queues_boss_1",
+    "skill_id": "dsa_queues",
+    "question": "Which statement best describes the focus of Queues?",
+    "question_type": "conceptual",
+    "options": [
+      "First-in-first-out structures, deques and priority concepts",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "First-in-first-out structures, deques and priority concepts",
+    "difficulty": "medium",
+    "explanation": "This directly tests understanding of Queues: First-in-first-out structures, deques and priority concepts."
+  },
+  {
+    "id": "dsa_queues_boss_2",
+    "skill_id": "dsa_queues",
+    "question": "Which activity most directly demonstrates practical understanding of Queues?",
+    "question_type": "mcq",
+    "options": [
+      "Apply Queues in a focused exercise and explain the result",
+      "Rename unrelated files without observing behavior",
+      "Change a display color without testing logic",
+      "Install an operating system without using the concept"
+    ],
+    "correct_answer": "Apply Queues in a focused exercise and explain the result",
+    "difficulty": "medium",
+    "explanation": "This directly tests understanding of Queues: First-in-first-out structures, deques and priority concepts."
+  },
+  {
+    "id": "dsa_queues_boss_3",
+    "skill_id": "dsa_queues",
+    "question": "Which statement best describes the focus of Queues?",
+    "question_type": "conceptual",
+    "options": [
+      "First-in-first-out structures, deques and priority concepts",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "First-in-first-out structures, deques and priority concepts",
+    "difficulty": "hard",
+    "explanation": "This directly tests understanding of Queues: First-in-first-out structures, deques and priority concepts."
+  },
+  {
+    "id": "dsa_queues_boss_4",
+    "skill_id": "dsa_queues",
+    "question": "Which activity most directly demonstrates practical understanding of Queues?",
+    "question_type": "mcq",
+    "options": [
+      "Apply Queues in a focused exercise and explain the result",
+      "Rename unrelated files without observing behavior",
+      "Change a display color without testing logic",
+      "Install an operating system without using the concept"
+    ],
+    "correct_answer": "Apply Queues in a focused exercise and explain the result",
+    "difficulty": "hard",
+    "explanation": "This directly tests understanding of Queues: First-in-first-out structures, deques and priority concepts."
+  },
+  {
+    "id": "dsa_queues_boss_5",
+    "skill_id": "dsa_queues",
+    "question": "Which statement best describes the focus of Queues?",
+    "question_type": "conceptual",
+    "options": [
+      "First-in-first-out structures, deques and priority concepts",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "First-in-first-out structures, deques and priority concepts",
+    "difficulty": "advanced",
+    "explanation": "This directly tests understanding of Queues: First-in-first-out structures, deques and priority concepts."
+  },
+  {
+    "id": "dsa_hashing_boss_1",
+    "skill_id": "dsa_hashing",
+    "question": "Which statement best describes the focus of Hashing?",
+    "question_type": "conceptual",
+    "options": [
+      "Hash functions, hash tables and collision strategies",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Hash functions, hash tables and collision strategies",
+    "difficulty": "medium",
+    "explanation": "This directly tests understanding of Hashing: Hash functions, hash tables and collision strategies."
+  },
+  {
+    "id": "dsa_hashing_boss_2",
+    "skill_id": "dsa_hashing",
+    "question": "Which activity most directly demonstrates practical understanding of Hashing?",
+    "question_type": "mcq",
+    "options": [
+      "Apply Hashing in a focused exercise and explain the result",
+      "Rename unrelated files without observing behavior",
+      "Change a display color without testing logic",
+      "Install an operating system without using the concept"
+    ],
+    "correct_answer": "Apply Hashing in a focused exercise and explain the result",
+    "difficulty": "medium",
+    "explanation": "This directly tests understanding of Hashing: Hash functions, hash tables and collision strategies."
+  },
+  {
+    "id": "dsa_hashing_boss_3",
+    "skill_id": "dsa_hashing",
+    "question": "Which statement best describes the focus of Hashing?",
+    "question_type": "conceptual",
+    "options": [
+      "Hash functions, hash tables and collision strategies",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Hash functions, hash tables and collision strategies",
+    "difficulty": "hard",
+    "explanation": "This directly tests understanding of Hashing: Hash functions, hash tables and collision strategies."
+  },
+  {
+    "id": "dsa_hashing_boss_4",
+    "skill_id": "dsa_hashing",
+    "question": "Which activity most directly demonstrates practical understanding of Hashing?",
+    "question_type": "mcq",
+    "options": [
+      "Apply Hashing in a focused exercise and explain the result",
+      "Rename unrelated files without observing behavior",
+      "Change a display color without testing logic",
+      "Install an operating system without using the concept"
+    ],
+    "correct_answer": "Apply Hashing in a focused exercise and explain the result",
+    "difficulty": "hard",
+    "explanation": "This directly tests understanding of Hashing: Hash functions, hash tables and collision strategies."
+  },
+  {
+    "id": "dsa_hashing_boss_5",
+    "skill_id": "dsa_hashing",
+    "question": "Which statement best describes the focus of Hashing?",
+    "question_type": "conceptual",
+    "options": [
+      "Hash functions, hash tables and collision strategies",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Hash functions, hash tables and collision strategies",
+    "difficulty": "advanced",
+    "explanation": "This directly tests understanding of Hashing: Hash functions, hash tables and collision strategies."
+  },
+  {
+    "id": "dsa_trees_boss_1",
+    "skill_id": "dsa_trees",
+    "question": "Which statement best describes the focus of Trees?",
+    "question_type": "conceptual",
+    "options": [
+      "Tree representations, traversal and search trees",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Tree representations, traversal and search trees",
+    "difficulty": "medium",
+    "explanation": "This directly tests understanding of Trees: Tree representations, traversal and search trees."
+  },
+  {
+    "id": "dsa_trees_boss_2",
+    "skill_id": "dsa_trees",
+    "question": "Which activity most directly demonstrates practical understanding of Trees?",
+    "question_type": "mcq",
+    "options": [
+      "Apply Trees in a focused exercise and explain the result",
+      "Rename unrelated files without observing behavior",
+      "Change a display color without testing logic",
+      "Install an operating system without using the concept"
+    ],
+    "correct_answer": "Apply Trees in a focused exercise and explain the result",
+    "difficulty": "medium",
+    "explanation": "This directly tests understanding of Trees: Tree representations, traversal and search trees."
+  },
+  {
+    "id": "dsa_trees_boss_3",
+    "skill_id": "dsa_trees",
+    "question": "Which statement best describes the focus of Trees?",
+    "question_type": "conceptual",
+    "options": [
+      "Tree representations, traversal and search trees",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Tree representations, traversal and search trees",
+    "difficulty": "hard",
+    "explanation": "This directly tests understanding of Trees: Tree representations, traversal and search trees."
+  },
+  {
+    "id": "dsa_trees_boss_4",
+    "skill_id": "dsa_trees",
+    "question": "Which activity most directly demonstrates practical understanding of Trees?",
+    "question_type": "mcq",
+    "options": [
+      "Apply Trees in a focused exercise and explain the result",
+      "Rename unrelated files without observing behavior",
+      "Change a display color without testing logic",
+      "Install an operating system without using the concept"
+    ],
+    "correct_answer": "Apply Trees in a focused exercise and explain the result",
+    "difficulty": "hard",
+    "explanation": "This directly tests understanding of Trees: Tree representations, traversal and search trees."
+  },
+  {
+    "id": "dsa_trees_boss_5",
+    "skill_id": "dsa_trees",
+    "question": "Which statement best describes the focus of Trees?",
+    "question_type": "conceptual",
+    "options": [
+      "Tree representations, traversal and search trees",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Tree representations, traversal and search trees",
+    "difficulty": "advanced",
+    "explanation": "This directly tests understanding of Trees: Tree representations, traversal and search trees."
+  },
+  {
+    "id": "dsa_heaps_boss_1",
+    "skill_id": "dsa_heaps",
+    "question": "Which statement best describes the focus of Heaps?",
+    "question_type": "conceptual",
+    "options": [
+      "Heap structure, priority queues and heap-based algorithms",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Heap structure, priority queues and heap-based algorithms",
+    "difficulty": "medium",
+    "explanation": "This directly tests understanding of Heaps: Heap structure, priority queues and heap-based algorithms."
+  },
+  {
+    "id": "dsa_heaps_boss_2",
+    "skill_id": "dsa_heaps",
+    "question": "Which activity most directly demonstrates practical understanding of Heaps?",
+    "question_type": "mcq",
+    "options": [
+      "Apply Heaps in a focused exercise and explain the result",
+      "Rename unrelated files without observing behavior",
+      "Change a display color without testing logic",
+      "Install an operating system without using the concept"
+    ],
+    "correct_answer": "Apply Heaps in a focused exercise and explain the result",
+    "difficulty": "medium",
+    "explanation": "This directly tests understanding of Heaps: Heap structure, priority queues and heap-based algorithms."
+  },
+  {
+    "id": "dsa_heaps_boss_3",
+    "skill_id": "dsa_heaps",
+    "question": "Which statement best describes the focus of Heaps?",
+    "question_type": "conceptual",
+    "options": [
+      "Heap structure, priority queues and heap-based algorithms",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Heap structure, priority queues and heap-based algorithms",
+    "difficulty": "hard",
+    "explanation": "This directly tests understanding of Heaps: Heap structure, priority queues and heap-based algorithms."
+  },
+  {
+    "id": "dsa_heaps_boss_4",
+    "skill_id": "dsa_heaps",
+    "question": "Which activity most directly demonstrates practical understanding of Heaps?",
+    "question_type": "mcq",
+    "options": [
+      "Apply Heaps in a focused exercise and explain the result",
+      "Rename unrelated files without observing behavior",
+      "Change a display color without testing logic",
+      "Install an operating system without using the concept"
+    ],
+    "correct_answer": "Apply Heaps in a focused exercise and explain the result",
+    "difficulty": "hard",
+    "explanation": "This directly tests understanding of Heaps: Heap structure, priority queues and heap-based algorithms."
+  },
+  {
+    "id": "dsa_heaps_boss_5",
+    "skill_id": "dsa_heaps",
+    "question": "Which statement best describes the focus of Heaps?",
+    "question_type": "conceptual",
+    "options": [
+      "Heap structure, priority queues and heap-based algorithms",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Heap structure, priority queues and heap-based algorithms",
+    "difficulty": "advanced",
+    "explanation": "This directly tests understanding of Heaps: Heap structure, priority queues and heap-based algorithms."
+  },
+  {
+    "id": "dsa_graphs_boss_1",
+    "skill_id": "dsa_graphs",
+    "question": "Which statement best describes the focus of Graphs?",
+    "question_type": "conceptual",
+    "options": [
+      "Graph representations, traversal and connectivity concepts",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Graph representations, traversal and connectivity concepts",
+    "difficulty": "medium",
+    "explanation": "This directly tests understanding of Graphs: Graph representations, traversal and connectivity concepts."
+  },
+  {
+    "id": "dsa_graphs_boss_2",
+    "skill_id": "dsa_graphs",
+    "question": "Which activity most directly demonstrates practical understanding of Graphs?",
+    "question_type": "mcq",
+    "options": [
+      "Apply Graphs in a focused exercise and explain the result",
+      "Rename unrelated files without observing behavior",
+      "Change a display color without testing logic",
+      "Install an operating system without using the concept"
+    ],
+    "correct_answer": "Apply Graphs in a focused exercise and explain the result",
+    "difficulty": "medium",
+    "explanation": "This directly tests understanding of Graphs: Graph representations, traversal and connectivity concepts."
+  },
+  {
+    "id": "dsa_graphs_boss_3",
+    "skill_id": "dsa_graphs",
+    "question": "Which statement best describes the focus of Graphs?",
+    "question_type": "conceptual",
+    "options": [
+      "Graph representations, traversal and connectivity concepts",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Graph representations, traversal and connectivity concepts",
+    "difficulty": "hard",
+    "explanation": "This directly tests understanding of Graphs: Graph representations, traversal and connectivity concepts."
+  },
+  {
+    "id": "dsa_graphs_boss_4",
+    "skill_id": "dsa_graphs",
+    "question": "Which activity most directly demonstrates practical understanding of Graphs?",
+    "question_type": "mcq",
+    "options": [
+      "Apply Graphs in a focused exercise and explain the result",
+      "Rename unrelated files without observing behavior",
+      "Change a display color without testing logic",
+      "Install an operating system without using the concept"
+    ],
+    "correct_answer": "Apply Graphs in a focused exercise and explain the result",
+    "difficulty": "hard",
+    "explanation": "This directly tests understanding of Graphs: Graph representations, traversal and connectivity concepts."
+  },
+  {
+    "id": "dsa_graphs_boss_5",
+    "skill_id": "dsa_graphs",
+    "question": "Which statement best describes the focus of Graphs?",
+    "question_type": "conceptual",
+    "options": [
+      "Graph representations, traversal and connectivity concepts",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Graph representations, traversal and connectivity concepts",
+    "difficulty": "advanced",
+    "explanation": "This directly tests understanding of Graphs: Graph representations, traversal and connectivity concepts."
+  },
+  {
+    "id": "dsa_sorting_boss_1",
+    "skill_id": "dsa_sorting",
+    "question": "Which statement best describes the focus of Sorting?",
+    "question_type": "conceptual",
+    "options": [
+      "Comparison sorting, partitioning and sorting tradeoffs",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Comparison sorting, partitioning and sorting tradeoffs",
+    "difficulty": "medium",
+    "explanation": "This directly tests understanding of Sorting: Comparison sorting, partitioning and sorting tradeoffs."
+  },
+  {
+    "id": "dsa_sorting_boss_2",
+    "skill_id": "dsa_sorting",
+    "question": "Which activity most directly demonstrates practical understanding of Sorting?",
+    "question_type": "mcq",
+    "options": [
+      "Apply Sorting in a focused exercise and explain the result",
+      "Rename unrelated files without observing behavior",
+      "Change a display color without testing logic",
+      "Install an operating system without using the concept"
+    ],
+    "correct_answer": "Apply Sorting in a focused exercise and explain the result",
+    "difficulty": "medium",
+    "explanation": "This directly tests understanding of Sorting: Comparison sorting, partitioning and sorting tradeoffs."
+  },
+  {
+    "id": "dsa_sorting_boss_3",
+    "skill_id": "dsa_sorting",
+    "question": "Which statement best describes the focus of Sorting?",
+    "question_type": "conceptual",
+    "options": [
+      "Comparison sorting, partitioning and sorting tradeoffs",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Comparison sorting, partitioning and sorting tradeoffs",
+    "difficulty": "hard",
+    "explanation": "This directly tests understanding of Sorting: Comparison sorting, partitioning and sorting tradeoffs."
+  },
+  {
+    "id": "dsa_sorting_boss_4",
+    "skill_id": "dsa_sorting",
+    "question": "Which activity most directly demonstrates practical understanding of Sorting?",
+    "question_type": "mcq",
+    "options": [
+      "Apply Sorting in a focused exercise and explain the result",
+      "Rename unrelated files without observing behavior",
+      "Change a display color without testing logic",
+      "Install an operating system without using the concept"
+    ],
+    "correct_answer": "Apply Sorting in a focused exercise and explain the result",
+    "difficulty": "hard",
+    "explanation": "This directly tests understanding of Sorting: Comparison sorting, partitioning and sorting tradeoffs."
+  },
+  {
+    "id": "dsa_sorting_boss_5",
+    "skill_id": "dsa_sorting",
+    "question": "Which statement best describes the focus of Sorting?",
+    "question_type": "conceptual",
+    "options": [
+      "Comparison sorting, partitioning and sorting tradeoffs",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Comparison sorting, partitioning and sorting tradeoffs",
+    "difficulty": "advanced",
+    "explanation": "This directly tests understanding of Sorting: Comparison sorting, partitioning and sorting tradeoffs."
+  },
+  {
+    "id": "dsa_searching_boss_1",
+    "skill_id": "dsa_searching",
+    "question": "Which statement best describes the focus of Searching?",
+    "question_type": "conceptual",
+    "options": [
+      "Linear, binary and structure-aware search techniques",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Linear, binary and structure-aware search techniques",
+    "difficulty": "medium",
+    "explanation": "This directly tests understanding of Searching: Linear, binary and structure-aware search techniques."
+  },
+  {
+    "id": "dsa_searching_boss_2",
+    "skill_id": "dsa_searching",
+    "question": "Which activity most directly demonstrates practical understanding of Searching?",
+    "question_type": "mcq",
+    "options": [
+      "Apply Searching in a focused exercise and explain the result",
+      "Rename unrelated files without observing behavior",
+      "Change a display color without testing logic",
+      "Install an operating system without using the concept"
+    ],
+    "correct_answer": "Apply Searching in a focused exercise and explain the result",
+    "difficulty": "medium",
+    "explanation": "This directly tests understanding of Searching: Linear, binary and structure-aware search techniques."
+  },
+  {
+    "id": "dsa_searching_boss_3",
+    "skill_id": "dsa_searching",
+    "question": "Which statement best describes the focus of Searching?",
+    "question_type": "conceptual",
+    "options": [
+      "Linear, binary and structure-aware search techniques",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Linear, binary and structure-aware search techniques",
+    "difficulty": "hard",
+    "explanation": "This directly tests understanding of Searching: Linear, binary and structure-aware search techniques."
+  },
+  {
+    "id": "dsa_searching_boss_4",
+    "skill_id": "dsa_searching",
+    "question": "Which activity most directly demonstrates practical understanding of Searching?",
+    "question_type": "mcq",
+    "options": [
+      "Apply Searching in a focused exercise and explain the result",
+      "Rename unrelated files without observing behavior",
+      "Change a display color without testing logic",
+      "Install an operating system without using the concept"
+    ],
+    "correct_answer": "Apply Searching in a focused exercise and explain the result",
+    "difficulty": "hard",
+    "explanation": "This directly tests understanding of Searching: Linear, binary and structure-aware search techniques."
+  },
+  {
+    "id": "dsa_searching_boss_5",
+    "skill_id": "dsa_searching",
+    "question": "Which statement best describes the focus of Searching?",
+    "question_type": "conceptual",
+    "options": [
+      "Linear, binary and structure-aware search techniques",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Linear, binary and structure-aware search techniques",
+    "difficulty": "advanced",
+    "explanation": "This directly tests understanding of Searching: Linear, binary and structure-aware search techniques."
+  },
+  {
+    "id": "dsa_recursion_boss_1",
+    "skill_id": "dsa_recursion",
+    "question": "Which statement best describes the focus of Recursion?",
+    "question_type": "conceptual",
+    "options": [
+      "Recursive problem decomposition, base cases and call stacks",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Recursive problem decomposition, base cases and call stacks",
+    "difficulty": "medium",
+    "explanation": "This directly tests understanding of Recursion: Recursive problem decomposition, base cases and call stacks."
+  },
+  {
+    "id": "dsa_recursion_boss_2",
+    "skill_id": "dsa_recursion",
+    "question": "Which activity most directly demonstrates practical understanding of Recursion?",
+    "question_type": "mcq",
+    "options": [
+      "Apply Recursion in a focused exercise and explain the result",
+      "Rename unrelated files without observing behavior",
+      "Change a display color without testing logic",
+      "Install an operating system without using the concept"
+    ],
+    "correct_answer": "Apply Recursion in a focused exercise and explain the result",
+    "difficulty": "medium",
+    "explanation": "This directly tests understanding of Recursion: Recursive problem decomposition, base cases and call stacks."
+  },
+  {
+    "id": "dsa_recursion_boss_3",
+    "skill_id": "dsa_recursion",
+    "question": "Which statement best describes the focus of Recursion?",
+    "question_type": "conceptual",
+    "options": [
+      "Recursive problem decomposition, base cases and call stacks",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Recursive problem decomposition, base cases and call stacks",
+    "difficulty": "hard",
+    "explanation": "This directly tests understanding of Recursion: Recursive problem decomposition, base cases and call stacks."
+  },
+  {
+    "id": "dsa_recursion_boss_4",
+    "skill_id": "dsa_recursion",
+    "question": "Which activity most directly demonstrates practical understanding of Recursion?",
+    "question_type": "mcq",
+    "options": [
+      "Apply Recursion in a focused exercise and explain the result",
+      "Rename unrelated files without observing behavior",
+      "Change a display color without testing logic",
+      "Install an operating system without using the concept"
+    ],
+    "correct_answer": "Apply Recursion in a focused exercise and explain the result",
+    "difficulty": "hard",
+    "explanation": "This directly tests understanding of Recursion: Recursive problem decomposition, base cases and call stacks."
+  },
+  {
+    "id": "dsa_recursion_boss_5",
+    "skill_id": "dsa_recursion",
+    "question": "Which statement best describes the focus of Recursion?",
+    "question_type": "conceptual",
+    "options": [
+      "Recursive problem decomposition, base cases and call stacks",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Recursive problem decomposition, base cases and call stacks",
+    "difficulty": "advanced",
+    "explanation": "This directly tests understanding of Recursion: Recursive problem decomposition, base cases and call stacks."
+  },
+  {
+    "id": "dsa_dynamic_programming_boss_1",
+    "skill_id": "dsa_dynamic_programming",
+    "question": "Which statement best describes the focus of Dynamic Programming?",
+    "question_type": "conceptual",
+    "options": [
+      "Solving overlapping subproblems with memoization and tabulation",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Solving overlapping subproblems with memoization and tabulation",
+    "difficulty": "medium",
+    "explanation": "This directly tests understanding of Dynamic Programming: Solving overlapping subproblems with memoization and tabulation."
+  },
+  {
+    "id": "dsa_dynamic_programming_boss_2",
+    "skill_id": "dsa_dynamic_programming",
+    "question": "Which activity most directly demonstrates practical understanding of Dynamic Programming?",
+    "question_type": "mcq",
+    "options": [
+      "Apply Dynamic Programming in a focused exercise and explain the result",
+      "Rename unrelated files without observing behavior",
+      "Change a display color without testing logic",
+      "Install an operating system without using the concept"
+    ],
+    "correct_answer": "Apply Dynamic Programming in a focused exercise and explain the result",
+    "difficulty": "medium",
+    "explanation": "This directly tests understanding of Dynamic Programming: Solving overlapping subproblems with memoization and tabulation."
+  },
+  {
+    "id": "dsa_dynamic_programming_boss_3",
+    "skill_id": "dsa_dynamic_programming",
+    "question": "Which statement best describes the focus of Dynamic Programming?",
+    "question_type": "conceptual",
+    "options": [
+      "Solving overlapping subproblems with memoization and tabulation",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Solving overlapping subproblems with memoization and tabulation",
+    "difficulty": "hard",
+    "explanation": "This directly tests understanding of Dynamic Programming: Solving overlapping subproblems with memoization and tabulation."
+  },
+  {
+    "id": "dsa_dynamic_programming_boss_4",
+    "skill_id": "dsa_dynamic_programming",
+    "question": "Which activity most directly demonstrates practical understanding of Dynamic Programming?",
+    "question_type": "mcq",
+    "options": [
+      "Apply Dynamic Programming in a focused exercise and explain the result",
+      "Rename unrelated files without observing behavior",
+      "Change a display color without testing logic",
+      "Install an operating system without using the concept"
+    ],
+    "correct_answer": "Apply Dynamic Programming in a focused exercise and explain the result",
+    "difficulty": "hard",
+    "explanation": "This directly tests understanding of Dynamic Programming: Solving overlapping subproblems with memoization and tabulation."
+  },
+  {
+    "id": "dsa_dynamic_programming_boss_5",
+    "skill_id": "dsa_dynamic_programming",
+    "question": "Which statement best describes the focus of Dynamic Programming?",
+    "question_type": "conceptual",
+    "options": [
+      "Solving overlapping subproblems with memoization and tabulation",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Solving overlapping subproblems with memoization and tabulation",
+    "difficulty": "advanced",
+    "explanation": "This directly tests understanding of Dynamic Programming: Solving overlapping subproblems with memoization and tabulation."
+  },
+  {
+    "id": "web_html_boss_1",
+    "skill_id": "web_html",
+    "question": "Which statement best describes the focus of HTML?",
+    "question_type": "conceptual",
+    "options": [
+      "Semantic document structure, elements, forms and accessibility basics",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Semantic document structure, elements, forms and accessibility basics",
+    "difficulty": "medium",
+    "explanation": "This directly tests understanding of HTML: Semantic document structure, elements, forms and accessibility basics."
+  },
+  {
+    "id": "web_html_boss_2",
+    "skill_id": "web_html",
+    "question": "Which activity most directly demonstrates practical understanding of HTML?",
+    "question_type": "mcq",
+    "options": [
+      "Apply HTML in a focused exercise and explain the result",
+      "Rename unrelated files without observing behavior",
+      "Change a display color without testing logic",
+      "Install an operating system without using the concept"
+    ],
+    "correct_answer": "Apply HTML in a focused exercise and explain the result",
+    "difficulty": "medium",
+    "explanation": "This directly tests understanding of HTML: Semantic document structure, elements, forms and accessibility basics."
+  },
+  {
+    "id": "web_html_boss_3",
+    "skill_id": "web_html",
+    "question": "Which statement best describes the focus of HTML?",
+    "question_type": "conceptual",
+    "options": [
+      "Semantic document structure, elements, forms and accessibility basics",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Semantic document structure, elements, forms and accessibility basics",
+    "difficulty": "hard",
+    "explanation": "This directly tests understanding of HTML: Semantic document structure, elements, forms and accessibility basics."
+  },
+  {
+    "id": "web_html_boss_4",
+    "skill_id": "web_html",
+    "question": "Which activity most directly demonstrates practical understanding of HTML?",
+    "question_type": "mcq",
+    "options": [
+      "Apply HTML in a focused exercise and explain the result",
+      "Rename unrelated files without observing behavior",
+      "Change a display color without testing logic",
+      "Install an operating system without using the concept"
+    ],
+    "correct_answer": "Apply HTML in a focused exercise and explain the result",
+    "difficulty": "hard",
+    "explanation": "This directly tests understanding of HTML: Semantic document structure, elements, forms and accessibility basics."
+  },
+  {
+    "id": "web_html_boss_5",
+    "skill_id": "web_html",
+    "question": "Which statement best describes the focus of HTML?",
+    "question_type": "conceptual",
+    "options": [
+      "Semantic document structure, elements, forms and accessibility basics",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Semantic document structure, elements, forms and accessibility basics",
+    "difficulty": "advanced",
+    "explanation": "This directly tests understanding of HTML: Semantic document structure, elements, forms and accessibility basics."
+  },
+  {
+    "id": "web_css_boss_1",
+    "skill_id": "web_css",
+    "question": "Which statement best describes the focus of CSS?",
+    "question_type": "conceptual",
+    "options": [
+      "Selectors, the cascade, layout, spacing and visual styling",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Selectors, the cascade, layout, spacing and visual styling",
+    "difficulty": "medium",
+    "explanation": "This directly tests understanding of CSS: Selectors, the cascade, layout, spacing and visual styling."
+  },
+  {
+    "id": "web_css_boss_2",
+    "skill_id": "web_css",
+    "question": "Which activity most directly demonstrates practical understanding of CSS?",
+    "question_type": "mcq",
+    "options": [
+      "Apply CSS in a focused exercise and explain the result",
+      "Rename unrelated files without observing behavior",
+      "Change a display color without testing logic",
+      "Install an operating system without using the concept"
+    ],
+    "correct_answer": "Apply CSS in a focused exercise and explain the result",
+    "difficulty": "medium",
+    "explanation": "This directly tests understanding of CSS: Selectors, the cascade, layout, spacing and visual styling."
+  },
+  {
+    "id": "web_css_boss_3",
+    "skill_id": "web_css",
+    "question": "Which statement best describes the focus of CSS?",
+    "question_type": "conceptual",
+    "options": [
+      "Selectors, the cascade, layout, spacing and visual styling",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Selectors, the cascade, layout, spacing and visual styling",
+    "difficulty": "hard",
+    "explanation": "This directly tests understanding of CSS: Selectors, the cascade, layout, spacing and visual styling."
+  },
+  {
+    "id": "web_css_boss_4",
+    "skill_id": "web_css",
+    "question": "Which activity most directly demonstrates practical understanding of CSS?",
+    "question_type": "mcq",
+    "options": [
+      "Apply CSS in a focused exercise and explain the result",
+      "Rename unrelated files without observing behavior",
+      "Change a display color without testing logic",
+      "Install an operating system without using the concept"
+    ],
+    "correct_answer": "Apply CSS in a focused exercise and explain the result",
+    "difficulty": "hard",
+    "explanation": "This directly tests understanding of CSS: Selectors, the cascade, layout, spacing and visual styling."
+  },
+  {
+    "id": "web_css_boss_5",
+    "skill_id": "web_css",
+    "question": "Which statement best describes the focus of CSS?",
+    "question_type": "conceptual",
+    "options": [
+      "Selectors, the cascade, layout, spacing and visual styling",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Selectors, the cascade, layout, spacing and visual styling",
+    "difficulty": "advanced",
+    "explanation": "This directly tests understanding of CSS: Selectors, the cascade, layout, spacing and visual styling."
+  },
+  {
+    "id": "web_javascript_boss_1",
+    "skill_id": "web_javascript",
+    "question": "Which statement best describes the focus of JavaScript Basics?",
+    "question_type": "conceptual",
+    "options": [
+      "JavaScript values, functions, objects and control flow",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "JavaScript values, functions, objects and control flow",
+    "difficulty": "medium",
+    "explanation": "This directly tests understanding of JavaScript Basics: JavaScript values, functions, objects and control flow."
+  },
+  {
+    "id": "web_javascript_boss_2",
+    "skill_id": "web_javascript",
+    "question": "Which activity most directly demonstrates practical understanding of JavaScript Basics?",
+    "question_type": "mcq",
+    "options": [
+      "Apply JavaScript Basics in a focused exercise and explain the result",
+      "Rename unrelated files without observing behavior",
+      "Change a display color without testing logic",
+      "Install an operating system without using the concept"
+    ],
+    "correct_answer": "Apply JavaScript Basics in a focused exercise and explain the result",
+    "difficulty": "medium",
+    "explanation": "This directly tests understanding of JavaScript Basics: JavaScript values, functions, objects and control flow."
+  },
+  {
+    "id": "web_javascript_boss_3",
+    "skill_id": "web_javascript",
+    "question": "Which statement best describes the focus of JavaScript Basics?",
+    "question_type": "conceptual",
+    "options": [
+      "JavaScript values, functions, objects and control flow",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "JavaScript values, functions, objects and control flow",
+    "difficulty": "hard",
+    "explanation": "This directly tests understanding of JavaScript Basics: JavaScript values, functions, objects and control flow."
+  },
+  {
+    "id": "web_javascript_boss_4",
+    "skill_id": "web_javascript",
+    "question": "Which activity most directly demonstrates practical understanding of JavaScript Basics?",
+    "question_type": "mcq",
+    "options": [
+      "Apply JavaScript Basics in a focused exercise and explain the result",
+      "Rename unrelated files without observing behavior",
+      "Change a display color without testing logic",
+      "Install an operating system without using the concept"
+    ],
+    "correct_answer": "Apply JavaScript Basics in a focused exercise and explain the result",
+    "difficulty": "hard",
+    "explanation": "This directly tests understanding of JavaScript Basics: JavaScript values, functions, objects and control flow."
+  },
+  {
+    "id": "web_javascript_boss_5",
+    "skill_id": "web_javascript",
+    "question": "Which statement best describes the focus of JavaScript Basics?",
+    "question_type": "conceptual",
+    "options": [
+      "JavaScript values, functions, objects and control flow",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "JavaScript values, functions, objects and control flow",
+    "difficulty": "advanced",
+    "explanation": "This directly tests understanding of JavaScript Basics: JavaScript values, functions, objects and control flow."
+  },
+  {
+    "id": "web_dom_boss_1",
+    "skill_id": "web_dom",
+    "question": "Which statement best describes the focus of DOM?",
+    "question_type": "conceptual",
+    "options": [
+      "Querying and updating web documents through the Document Object Model",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Querying and updating web documents through the Document Object Model",
+    "difficulty": "medium",
+    "explanation": "This directly tests understanding of DOM: Querying and updating web documents through the Document Object Model."
+  },
+  {
+    "id": "web_dom_boss_2",
+    "skill_id": "web_dom",
+    "question": "Which activity most directly demonstrates practical understanding of DOM?",
+    "question_type": "mcq",
+    "options": [
+      "Apply DOM in a focused exercise and explain the result",
+      "Rename unrelated files without observing behavior",
+      "Change a display color without testing logic",
+      "Install an operating system without using the concept"
+    ],
+    "correct_answer": "Apply DOM in a focused exercise and explain the result",
+    "difficulty": "medium",
+    "explanation": "This directly tests understanding of DOM: Querying and updating web documents through the Document Object Model."
+  },
+  {
+    "id": "web_dom_boss_3",
+    "skill_id": "web_dom",
+    "question": "Which statement best describes the focus of DOM?",
+    "question_type": "conceptual",
+    "options": [
+      "Querying and updating web documents through the Document Object Model",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Querying and updating web documents through the Document Object Model",
+    "difficulty": "hard",
+    "explanation": "This directly tests understanding of DOM: Querying and updating web documents through the Document Object Model."
+  },
+  {
+    "id": "web_dom_boss_4",
+    "skill_id": "web_dom",
+    "question": "Which activity most directly demonstrates practical understanding of DOM?",
+    "question_type": "mcq",
+    "options": [
+      "Apply DOM in a focused exercise and explain the result",
+      "Rename unrelated files without observing behavior",
+      "Change a display color without testing logic",
+      "Install an operating system without using the concept"
+    ],
+    "correct_answer": "Apply DOM in a focused exercise and explain the result",
+    "difficulty": "hard",
+    "explanation": "This directly tests understanding of DOM: Querying and updating web documents through the Document Object Model."
+  },
+  {
+    "id": "web_dom_boss_5",
+    "skill_id": "web_dom",
+    "question": "Which statement best describes the focus of DOM?",
+    "question_type": "conceptual",
+    "options": [
+      "Querying and updating web documents through the Document Object Model",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Querying and updating web documents through the Document Object Model",
+    "difficulty": "advanced",
+    "explanation": "This directly tests understanding of DOM: Querying and updating web documents through the Document Object Model."
+  },
+  {
+    "id": "web_http_boss_1",
+    "skill_id": "web_http",
+    "question": "Which statement best describes the focus of HTTP Basics?",
+    "question_type": "conceptual",
+    "options": [
+      "Requests, responses, methods, status codes and web communication",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Requests, responses, methods, status codes and web communication",
+    "difficulty": "medium",
+    "explanation": "This directly tests understanding of HTTP Basics: Requests, responses, methods, status codes and web communication."
+  },
+  {
+    "id": "web_http_boss_2",
+    "skill_id": "web_http",
+    "question": "Which activity most directly demonstrates practical understanding of HTTP Basics?",
+    "question_type": "mcq",
+    "options": [
+      "Apply HTTP Basics in a focused exercise and explain the result",
+      "Rename unrelated files without observing behavior",
+      "Change a display color without testing logic",
+      "Install an operating system without using the concept"
+    ],
+    "correct_answer": "Apply HTTP Basics in a focused exercise and explain the result",
+    "difficulty": "medium",
+    "explanation": "This directly tests understanding of HTTP Basics: Requests, responses, methods, status codes and web communication."
+  },
+  {
+    "id": "web_http_boss_3",
+    "skill_id": "web_http",
+    "question": "Which statement best describes the focus of HTTP Basics?",
+    "question_type": "conceptual",
+    "options": [
+      "Requests, responses, methods, status codes and web communication",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Requests, responses, methods, status codes and web communication",
+    "difficulty": "hard",
+    "explanation": "This directly tests understanding of HTTP Basics: Requests, responses, methods, status codes and web communication."
+  },
+  {
+    "id": "web_http_boss_4",
+    "skill_id": "web_http",
+    "question": "Which activity most directly demonstrates practical understanding of HTTP Basics?",
+    "question_type": "mcq",
+    "options": [
+      "Apply HTTP Basics in a focused exercise and explain the result",
+      "Rename unrelated files without observing behavior",
+      "Change a display color without testing logic",
+      "Install an operating system without using the concept"
+    ],
+    "correct_answer": "Apply HTTP Basics in a focused exercise and explain the result",
+    "difficulty": "hard",
+    "explanation": "This directly tests understanding of HTTP Basics: Requests, responses, methods, status codes and web communication."
+  },
+  {
+    "id": "web_http_boss_5",
+    "skill_id": "web_http",
+    "question": "Which statement best describes the focus of HTTP Basics?",
+    "question_type": "conceptual",
+    "options": [
+      "Requests, responses, methods, status codes and web communication",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Requests, responses, methods, status codes and web communication",
+    "difficulty": "advanced",
+    "explanation": "This directly tests understanding of HTTP Basics: Requests, responses, methods, status codes and web communication."
+  },
+  {
+    "id": "web_git_boss_1",
+    "skill_id": "web_git",
+    "question": "Which statement best describes the focus of Git and GitHub?",
+    "question_type": "conceptual",
+    "options": [
+      "Version control, branches, collaboration and remote repositories",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Version control, branches, collaboration and remote repositories",
+    "difficulty": "medium",
+    "explanation": "This directly tests understanding of Git and GitHub: Version control, branches, collaboration and remote repositories."
+  },
+  {
+    "id": "web_git_boss_2",
+    "skill_id": "web_git",
+    "question": "Which activity most directly demonstrates practical understanding of Git and GitHub?",
+    "question_type": "mcq",
+    "options": [
+      "Apply Git and GitHub in a focused exercise and explain the result",
+      "Rename unrelated files without observing behavior",
+      "Change a display color without testing logic",
+      "Install an operating system without using the concept"
+    ],
+    "correct_answer": "Apply Git and GitHub in a focused exercise and explain the result",
+    "difficulty": "medium",
+    "explanation": "This directly tests understanding of Git and GitHub: Version control, branches, collaboration and remote repositories."
+  },
+  {
+    "id": "web_git_boss_3",
+    "skill_id": "web_git",
+    "question": "Which statement best describes the focus of Git and GitHub?",
+    "question_type": "conceptual",
+    "options": [
+      "Version control, branches, collaboration and remote repositories",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Version control, branches, collaboration and remote repositories",
+    "difficulty": "hard",
+    "explanation": "This directly tests understanding of Git and GitHub: Version control, branches, collaboration and remote repositories."
+  },
+  {
+    "id": "web_git_boss_4",
+    "skill_id": "web_git",
+    "question": "Which activity most directly demonstrates practical understanding of Git and GitHub?",
+    "question_type": "mcq",
+    "options": [
+      "Apply Git and GitHub in a focused exercise and explain the result",
+      "Rename unrelated files without observing behavior",
+      "Change a display color without testing logic",
+      "Install an operating system without using the concept"
+    ],
+    "correct_answer": "Apply Git and GitHub in a focused exercise and explain the result",
+    "difficulty": "hard",
+    "explanation": "This directly tests understanding of Git and GitHub: Version control, branches, collaboration and remote repositories."
+  },
+  {
+    "id": "web_git_boss_5",
+    "skill_id": "web_git",
+    "question": "Which statement best describes the focus of Git and GitHub?",
+    "question_type": "conceptual",
+    "options": [
+      "Version control, branches, collaboration and remote repositories",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Version control, branches, collaboration and remote repositories",
+    "difficulty": "advanced",
+    "explanation": "This directly tests understanding of Git and GitHub: Version control, branches, collaboration and remote repositories."
+  },
+  {
+    "id": "web_responsive_boss_1",
+    "skill_id": "web_responsive",
+    "question": "Which statement best describes the focus of Responsive Design?",
+    "question_type": "conceptual",
+    "options": [
+      "Building layouts that adapt to different screens and devices",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Building layouts that adapt to different screens and devices",
+    "difficulty": "medium",
+    "explanation": "This directly tests understanding of Responsive Design: Building layouts that adapt to different screens and devices."
+  },
+  {
+    "id": "web_responsive_boss_2",
+    "skill_id": "web_responsive",
+    "question": "Which activity most directly demonstrates practical understanding of Responsive Design?",
+    "question_type": "mcq",
+    "options": [
+      "Apply Responsive Design in a focused exercise and explain the result",
+      "Rename unrelated files without observing behavior",
+      "Change a display color without testing logic",
+      "Install an operating system without using the concept"
+    ],
+    "correct_answer": "Apply Responsive Design in a focused exercise and explain the result",
+    "difficulty": "medium",
+    "explanation": "This directly tests understanding of Responsive Design: Building layouts that adapt to different screens and devices."
+  },
+  {
+    "id": "web_responsive_boss_3",
+    "skill_id": "web_responsive",
+    "question": "Which statement best describes the focus of Responsive Design?",
+    "question_type": "conceptual",
+    "options": [
+      "Building layouts that adapt to different screens and devices",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Building layouts that adapt to different screens and devices",
+    "difficulty": "hard",
+    "explanation": "This directly tests understanding of Responsive Design: Building layouts that adapt to different screens and devices."
+  },
+  {
+    "id": "web_responsive_boss_4",
+    "skill_id": "web_responsive",
+    "question": "Which activity most directly demonstrates practical understanding of Responsive Design?",
+    "question_type": "mcq",
+    "options": [
+      "Apply Responsive Design in a focused exercise and explain the result",
+      "Rename unrelated files without observing behavior",
+      "Change a display color without testing logic",
+      "Install an operating system without using the concept"
+    ],
+    "correct_answer": "Apply Responsive Design in a focused exercise and explain the result",
+    "difficulty": "hard",
+    "explanation": "This directly tests understanding of Responsive Design: Building layouts that adapt to different screens and devices."
+  },
+  {
+    "id": "web_responsive_boss_5",
+    "skill_id": "web_responsive",
+    "question": "Which statement best describes the focus of Responsive Design?",
+    "question_type": "conceptual",
+    "options": [
+      "Building layouts that adapt to different screens and devices",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Building layouts that adapt to different screens and devices",
+    "difficulty": "advanced",
+    "explanation": "This directly tests understanding of Responsive Design: Building layouts that adapt to different screens and devices."
+  },
+  {
+    "id": "web_async_javascript_boss_1",
+    "skill_id": "web_async_javascript",
+    "question": "Which statement best describes the focus of JavaScript Async Programming?",
+    "question_type": "conceptual",
+    "options": [
+      "Promises, async functions and asynchronous browser workflows",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Promises, async functions and asynchronous browser workflows",
+    "difficulty": "medium",
+    "explanation": "This directly tests understanding of JavaScript Async Programming: Promises, async functions and asynchronous browser workflows."
+  },
+  {
+    "id": "web_async_javascript_boss_2",
+    "skill_id": "web_async_javascript",
+    "question": "Which activity most directly demonstrates practical understanding of JavaScript Async Programming?",
+    "question_type": "mcq",
+    "options": [
+      "Apply JavaScript Async Programming in a focused exercise and explain the result",
+      "Rename unrelated files without observing behavior",
+      "Change a display color without testing logic",
+      "Install an operating system without using the concept"
+    ],
+    "correct_answer": "Apply JavaScript Async Programming in a focused exercise and explain the result",
+    "difficulty": "medium",
+    "explanation": "This directly tests understanding of JavaScript Async Programming: Promises, async functions and asynchronous browser workflows."
+  },
+  {
+    "id": "web_async_javascript_boss_3",
+    "skill_id": "web_async_javascript",
+    "question": "Which statement best describes the focus of JavaScript Async Programming?",
+    "question_type": "conceptual",
+    "options": [
+      "Promises, async functions and asynchronous browser workflows",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Promises, async functions and asynchronous browser workflows",
+    "difficulty": "hard",
+    "explanation": "This directly tests understanding of JavaScript Async Programming: Promises, async functions and asynchronous browser workflows."
+  },
+  {
+    "id": "web_async_javascript_boss_4",
+    "skill_id": "web_async_javascript",
+    "question": "Which activity most directly demonstrates practical understanding of JavaScript Async Programming?",
+    "question_type": "mcq",
+    "options": [
+      "Apply JavaScript Async Programming in a focused exercise and explain the result",
+      "Rename unrelated files without observing behavior",
+      "Change a display color without testing logic",
+      "Install an operating system without using the concept"
+    ],
+    "correct_answer": "Apply JavaScript Async Programming in a focused exercise and explain the result",
+    "difficulty": "hard",
+    "explanation": "This directly tests understanding of JavaScript Async Programming: Promises, async functions and asynchronous browser workflows."
+  },
+  {
+    "id": "web_async_javascript_boss_5",
+    "skill_id": "web_async_javascript",
+    "question": "Which statement best describes the focus of JavaScript Async Programming?",
+    "question_type": "conceptual",
+    "options": [
+      "Promises, async functions and asynchronous browser workflows",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Promises, async functions and asynchronous browser workflows",
+    "difficulty": "advanced",
+    "explanation": "This directly tests understanding of JavaScript Async Programming: Promises, async functions and asynchronous browser workflows."
+  },
+  {
+    "id": "web_frontend_boss_1",
+    "skill_id": "web_frontend",
+    "question": "Which statement best describes the focus of Frontend Fundamentals?",
+    "question_type": "conceptual",
+    "options": [
+      "Connecting UI structure, styling, browser behavior and user interaction",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Connecting UI structure, styling, browser behavior and user interaction",
+    "difficulty": "medium",
+    "explanation": "This directly tests understanding of Frontend Fundamentals: Connecting UI structure, styling, browser behavior and user interaction."
+  },
+  {
+    "id": "web_frontend_boss_2",
+    "skill_id": "web_frontend",
+    "question": "Which activity most directly demonstrates practical understanding of Frontend Fundamentals?",
+    "question_type": "mcq",
+    "options": [
+      "Apply Frontend Fundamentals in a focused exercise and explain the result",
+      "Rename unrelated files without observing behavior",
+      "Change a display color without testing logic",
+      "Install an operating system without using the concept"
+    ],
+    "correct_answer": "Apply Frontend Fundamentals in a focused exercise and explain the result",
+    "difficulty": "medium",
+    "explanation": "This directly tests understanding of Frontend Fundamentals: Connecting UI structure, styling, browser behavior and user interaction."
+  },
+  {
+    "id": "web_frontend_boss_3",
+    "skill_id": "web_frontend",
+    "question": "Which statement best describes the focus of Frontend Fundamentals?",
+    "question_type": "conceptual",
+    "options": [
+      "Connecting UI structure, styling, browser behavior and user interaction",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Connecting UI structure, styling, browser behavior and user interaction",
+    "difficulty": "hard",
+    "explanation": "This directly tests understanding of Frontend Fundamentals: Connecting UI structure, styling, browser behavior and user interaction."
+  },
+  {
+    "id": "web_frontend_boss_4",
+    "skill_id": "web_frontend",
+    "question": "Which activity most directly demonstrates practical understanding of Frontend Fundamentals?",
+    "question_type": "mcq",
+    "options": [
+      "Apply Frontend Fundamentals in a focused exercise and explain the result",
+      "Rename unrelated files without observing behavior",
+      "Change a display color without testing logic",
+      "Install an operating system without using the concept"
+    ],
+    "correct_answer": "Apply Frontend Fundamentals in a focused exercise and explain the result",
+    "difficulty": "hard",
+    "explanation": "This directly tests understanding of Frontend Fundamentals: Connecting UI structure, styling, browser behavior and user interaction."
+  },
+  {
+    "id": "web_frontend_boss_5",
+    "skill_id": "web_frontend",
+    "question": "Which statement best describes the focus of Frontend Fundamentals?",
+    "question_type": "conceptual",
+    "options": [
+      "Connecting UI structure, styling, browser behavior and user interaction",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Connecting UI structure, styling, browser behavior and user interaction",
+    "difficulty": "advanced",
+    "explanation": "This directly tests understanding of Frontend Fundamentals: Connecting UI structure, styling, browser behavior and user interaction."
+  },
+  {
+    "id": "web_backend_boss_1",
+    "skill_id": "web_backend",
+    "question": "Which statement best describes the focus of Backend Fundamentals?",
+    "question_type": "conceptual",
+    "options": [
+      "Server-side routing, APIs, data exchange and application boundaries",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Server-side routing, APIs, data exchange and application boundaries",
+    "difficulty": "medium",
+    "explanation": "This directly tests understanding of Backend Fundamentals: Server-side routing, APIs, data exchange and application boundaries."
+  },
+  {
+    "id": "web_backend_boss_2",
+    "skill_id": "web_backend",
+    "question": "Which activity most directly demonstrates practical understanding of Backend Fundamentals?",
+    "question_type": "mcq",
+    "options": [
+      "Apply Backend Fundamentals in a focused exercise and explain the result",
+      "Rename unrelated files without observing behavior",
+      "Change a display color without testing logic",
+      "Install an operating system without using the concept"
+    ],
+    "correct_answer": "Apply Backend Fundamentals in a focused exercise and explain the result",
+    "difficulty": "medium",
+    "explanation": "This directly tests understanding of Backend Fundamentals: Server-side routing, APIs, data exchange and application boundaries."
+  },
+  {
+    "id": "web_backend_boss_3",
+    "skill_id": "web_backend",
+    "question": "Which statement best describes the focus of Backend Fundamentals?",
+    "question_type": "conceptual",
+    "options": [
+      "Server-side routing, APIs, data exchange and application boundaries",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Server-side routing, APIs, data exchange and application boundaries",
+    "difficulty": "hard",
+    "explanation": "This directly tests understanding of Backend Fundamentals: Server-side routing, APIs, data exchange and application boundaries."
+  },
+  {
+    "id": "web_backend_boss_4",
+    "skill_id": "web_backend",
+    "question": "Which activity most directly demonstrates practical understanding of Backend Fundamentals?",
+    "question_type": "mcq",
+    "options": [
+      "Apply Backend Fundamentals in a focused exercise and explain the result",
+      "Rename unrelated files without observing behavior",
+      "Change a display color without testing logic",
+      "Install an operating system without using the concept"
+    ],
+    "correct_answer": "Apply Backend Fundamentals in a focused exercise and explain the result",
+    "difficulty": "hard",
+    "explanation": "This directly tests understanding of Backend Fundamentals: Server-side routing, APIs, data exchange and application boundaries."
+  },
+  {
+    "id": "web_backend_boss_5",
+    "skill_id": "web_backend",
+    "question": "Which statement best describes the focus of Backend Fundamentals?",
+    "question_type": "conceptual",
+    "options": [
+      "Server-side routing, APIs, data exchange and application boundaries",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Server-side routing, APIs, data exchange and application boundaries",
+    "difficulty": "advanced",
+    "explanation": "This directly tests understanding of Backend Fundamentals: Server-side routing, APIs, data exchange and application boundaries."
+  },
+  {
+    "id": "ml_python_boss_1",
+    "skill_id": "ml_python",
+    "question": "Which statement best describes the focus of Python for ML?",
+    "question_type": "conceptual",
+    "options": [
+      "Python programming patterns commonly used in machine learning workflows",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Python programming patterns commonly used in machine learning workflows",
+    "difficulty": "medium",
+    "explanation": "This directly tests understanding of Python for ML: Python programming patterns commonly used in machine learning workflows."
+  },
+  {
+    "id": "ml_python_boss_2",
+    "skill_id": "ml_python",
+    "question": "Which activity most directly demonstrates practical understanding of Python for ML?",
+    "question_type": "mcq",
+    "options": [
+      "Apply Python for ML in a focused exercise and explain the result",
+      "Rename unrelated files without observing behavior",
+      "Change a display color without testing logic",
+      "Install an operating system without using the concept"
+    ],
+    "correct_answer": "Apply Python for ML in a focused exercise and explain the result",
+    "difficulty": "medium",
+    "explanation": "This directly tests understanding of Python for ML: Python programming patterns commonly used in machine learning workflows."
+  },
+  {
+    "id": "ml_python_boss_3",
+    "skill_id": "ml_python",
+    "question": "Which statement best describes the focus of Python for ML?",
+    "question_type": "conceptual",
+    "options": [
+      "Python programming patterns commonly used in machine learning workflows",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Python programming patterns commonly used in machine learning workflows",
+    "difficulty": "hard",
+    "explanation": "This directly tests understanding of Python for ML: Python programming patterns commonly used in machine learning workflows."
+  },
+  {
+    "id": "ml_python_boss_4",
+    "skill_id": "ml_python",
+    "question": "Which activity most directly demonstrates practical understanding of Python for ML?",
+    "question_type": "mcq",
+    "options": [
+      "Apply Python for ML in a focused exercise and explain the result",
+      "Rename unrelated files without observing behavior",
+      "Change a display color without testing logic",
+      "Install an operating system without using the concept"
+    ],
+    "correct_answer": "Apply Python for ML in a focused exercise and explain the result",
+    "difficulty": "hard",
+    "explanation": "This directly tests understanding of Python for ML: Python programming patterns commonly used in machine learning workflows."
+  },
+  {
+    "id": "ml_python_boss_5",
+    "skill_id": "ml_python",
+    "question": "Which statement best describes the focus of Python for ML?",
+    "question_type": "conceptual",
+    "options": [
+      "Python programming patterns commonly used in machine learning workflows",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Python programming patterns commonly used in machine learning workflows",
+    "difficulty": "advanced",
+    "explanation": "This directly tests understanding of Python for ML: Python programming patterns commonly used in machine learning workflows."
+  },
+  {
+    "id": "ml_numpy_boss_1",
+    "skill_id": "ml_numpy",
+    "question": "Which statement best describes the focus of NumPy?",
+    "question_type": "conceptual",
+    "options": [
+      "Numerical arrays, vectorized operations and scientific computing foundations",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Numerical arrays, vectorized operations and scientific computing foundations",
+    "difficulty": "medium",
+    "explanation": "This directly tests understanding of NumPy: Numerical arrays, vectorized operations and scientific computing foundations."
+  },
+  {
+    "id": "ml_numpy_boss_2",
+    "skill_id": "ml_numpy",
+    "question": "Which activity most directly demonstrates practical understanding of NumPy?",
+    "question_type": "mcq",
+    "options": [
+      "Apply NumPy in a focused exercise and explain the result",
+      "Rename unrelated files without observing behavior",
+      "Change a display color without testing logic",
+      "Install an operating system without using the concept"
+    ],
+    "correct_answer": "Apply NumPy in a focused exercise and explain the result",
+    "difficulty": "medium",
+    "explanation": "This directly tests understanding of NumPy: Numerical arrays, vectorized operations and scientific computing foundations."
+  },
+  {
+    "id": "ml_numpy_boss_3",
+    "skill_id": "ml_numpy",
+    "question": "Which statement best describes the focus of NumPy?",
+    "question_type": "conceptual",
+    "options": [
+      "Numerical arrays, vectorized operations and scientific computing foundations",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Numerical arrays, vectorized operations and scientific computing foundations",
+    "difficulty": "hard",
+    "explanation": "This directly tests understanding of NumPy: Numerical arrays, vectorized operations and scientific computing foundations."
+  },
+  {
+    "id": "ml_numpy_boss_4",
+    "skill_id": "ml_numpy",
+    "question": "Which activity most directly demonstrates practical understanding of NumPy?",
+    "question_type": "mcq",
+    "options": [
+      "Apply NumPy in a focused exercise and explain the result",
+      "Rename unrelated files without observing behavior",
+      "Change a display color without testing logic",
+      "Install an operating system without using the concept"
+    ],
+    "correct_answer": "Apply NumPy in a focused exercise and explain the result",
+    "difficulty": "hard",
+    "explanation": "This directly tests understanding of NumPy: Numerical arrays, vectorized operations and scientific computing foundations."
+  },
+  {
+    "id": "ml_numpy_boss_5",
+    "skill_id": "ml_numpy",
+    "question": "Which statement best describes the focus of NumPy?",
+    "question_type": "conceptual",
+    "options": [
+      "Numerical arrays, vectorized operations and scientific computing foundations",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Numerical arrays, vectorized operations and scientific computing foundations",
+    "difficulty": "advanced",
+    "explanation": "This directly tests understanding of NumPy: Numerical arrays, vectorized operations and scientific computing foundations."
+  },
+  {
+    "id": "ml_pandas_boss_1",
+    "skill_id": "ml_pandas",
+    "question": "Which statement best describes the focus of Pandas?",
+    "question_type": "conceptual",
+    "options": [
+      "Tabular data loading, cleaning, transformation and analysis",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Tabular data loading, cleaning, transformation and analysis",
+    "difficulty": "medium",
+    "explanation": "This directly tests understanding of Pandas: Tabular data loading, cleaning, transformation and analysis."
+  },
+  {
+    "id": "ml_pandas_boss_2",
+    "skill_id": "ml_pandas",
+    "question": "Which activity most directly demonstrates practical understanding of Pandas?",
+    "question_type": "mcq",
+    "options": [
+      "Apply Pandas in a focused exercise and explain the result",
+      "Rename unrelated files without observing behavior",
+      "Change a display color without testing logic",
+      "Install an operating system without using the concept"
+    ],
+    "correct_answer": "Apply Pandas in a focused exercise and explain the result",
+    "difficulty": "medium",
+    "explanation": "This directly tests understanding of Pandas: Tabular data loading, cleaning, transformation and analysis."
+  },
+  {
+    "id": "ml_pandas_boss_3",
+    "skill_id": "ml_pandas",
+    "question": "Which statement best describes the focus of Pandas?",
+    "question_type": "conceptual",
+    "options": [
+      "Tabular data loading, cleaning, transformation and analysis",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Tabular data loading, cleaning, transformation and analysis",
+    "difficulty": "hard",
+    "explanation": "This directly tests understanding of Pandas: Tabular data loading, cleaning, transformation and analysis."
+  },
+  {
+    "id": "ml_pandas_boss_4",
+    "skill_id": "ml_pandas",
+    "question": "Which activity most directly demonstrates practical understanding of Pandas?",
+    "question_type": "mcq",
+    "options": [
+      "Apply Pandas in a focused exercise and explain the result",
+      "Rename unrelated files without observing behavior",
+      "Change a display color without testing logic",
+      "Install an operating system without using the concept"
+    ],
+    "correct_answer": "Apply Pandas in a focused exercise and explain the result",
+    "difficulty": "hard",
+    "explanation": "This directly tests understanding of Pandas: Tabular data loading, cleaning, transformation and analysis."
+  },
+  {
+    "id": "ml_pandas_boss_5",
+    "skill_id": "ml_pandas",
+    "question": "Which statement best describes the focus of Pandas?",
+    "question_type": "conceptual",
+    "options": [
+      "Tabular data loading, cleaning, transformation and analysis",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Tabular data loading, cleaning, transformation and analysis",
+    "difficulty": "advanced",
+    "explanation": "This directly tests understanding of Pandas: Tabular data loading, cleaning, transformation and analysis."
+  },
+  {
+    "id": "ml_visualization_boss_1",
+    "skill_id": "ml_visualization",
+    "question": "Which statement best describes the focus of Data Visualization?",
+    "question_type": "conceptual",
+    "options": [
+      "Communicating data patterns with charts and exploratory visualizations",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Communicating data patterns with charts and exploratory visualizations",
+    "difficulty": "medium",
+    "explanation": "This directly tests understanding of Data Visualization: Communicating data patterns with charts and exploratory visualizations."
+  },
+  {
+    "id": "ml_visualization_boss_2",
+    "skill_id": "ml_visualization",
+    "question": "Which activity most directly demonstrates practical understanding of Data Visualization?",
+    "question_type": "mcq",
+    "options": [
+      "Apply Data Visualization in a focused exercise and explain the result",
+      "Rename unrelated files without observing behavior",
+      "Change a display color without testing logic",
+      "Install an operating system without using the concept"
+    ],
+    "correct_answer": "Apply Data Visualization in a focused exercise and explain the result",
+    "difficulty": "medium",
+    "explanation": "This directly tests understanding of Data Visualization: Communicating data patterns with charts and exploratory visualizations."
+  },
+  {
+    "id": "ml_visualization_boss_3",
+    "skill_id": "ml_visualization",
+    "question": "Which statement best describes the focus of Data Visualization?",
+    "question_type": "conceptual",
+    "options": [
+      "Communicating data patterns with charts and exploratory visualizations",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Communicating data patterns with charts and exploratory visualizations",
+    "difficulty": "hard",
+    "explanation": "This directly tests understanding of Data Visualization: Communicating data patterns with charts and exploratory visualizations."
+  },
+  {
+    "id": "ml_visualization_boss_4",
+    "skill_id": "ml_visualization",
+    "question": "Which activity most directly demonstrates practical understanding of Data Visualization?",
+    "question_type": "mcq",
+    "options": [
+      "Apply Data Visualization in a focused exercise and explain the result",
+      "Rename unrelated files without observing behavior",
+      "Change a display color without testing logic",
+      "Install an operating system without using the concept"
+    ],
+    "correct_answer": "Apply Data Visualization in a focused exercise and explain the result",
+    "difficulty": "hard",
+    "explanation": "This directly tests understanding of Data Visualization: Communicating data patterns with charts and exploratory visualizations."
+  },
+  {
+    "id": "ml_visualization_boss_5",
+    "skill_id": "ml_visualization",
+    "question": "Which statement best describes the focus of Data Visualization?",
+    "question_type": "conceptual",
+    "options": [
+      "Communicating data patterns with charts and exploratory visualizations",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Communicating data patterns with charts and exploratory visualizations",
+    "difficulty": "advanced",
+    "explanation": "This directly tests understanding of Data Visualization: Communicating data patterns with charts and exploratory visualizations."
+  },
+  {
+    "id": "ml_linear_algebra_boss_1",
+    "skill_id": "ml_linear_algebra",
+    "question": "Which statement best describes the focus of Linear Algebra Basics?",
+    "question_type": "conceptual",
+    "options": [
+      "Vectors, matrices and transformations used in machine learning",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Vectors, matrices and transformations used in machine learning",
+    "difficulty": "medium",
+    "explanation": "This directly tests understanding of Linear Algebra Basics: Vectors, matrices and transformations used in machine learning."
+  },
+  {
+    "id": "ml_linear_algebra_boss_2",
+    "skill_id": "ml_linear_algebra",
+    "question": "Which activity most directly demonstrates practical understanding of Linear Algebra Basics?",
+    "question_type": "mcq",
+    "options": [
+      "Apply Linear Algebra Basics in a focused exercise and explain the result",
+      "Rename unrelated files without observing behavior",
+      "Change a display color without testing logic",
+      "Install an operating system without using the concept"
+    ],
+    "correct_answer": "Apply Linear Algebra Basics in a focused exercise and explain the result",
+    "difficulty": "medium",
+    "explanation": "This directly tests understanding of Linear Algebra Basics: Vectors, matrices and transformations used in machine learning."
+  },
+  {
+    "id": "ml_linear_algebra_boss_3",
+    "skill_id": "ml_linear_algebra",
+    "question": "Which statement best describes the focus of Linear Algebra Basics?",
+    "question_type": "conceptual",
+    "options": [
+      "Vectors, matrices and transformations used in machine learning",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Vectors, matrices and transformations used in machine learning",
+    "difficulty": "hard",
+    "explanation": "This directly tests understanding of Linear Algebra Basics: Vectors, matrices and transformations used in machine learning."
+  },
+  {
+    "id": "ml_linear_algebra_boss_4",
+    "skill_id": "ml_linear_algebra",
+    "question": "Which activity most directly demonstrates practical understanding of Linear Algebra Basics?",
+    "question_type": "mcq",
+    "options": [
+      "Apply Linear Algebra Basics in a focused exercise and explain the result",
+      "Rename unrelated files without observing behavior",
+      "Change a display color without testing logic",
+      "Install an operating system without using the concept"
+    ],
+    "correct_answer": "Apply Linear Algebra Basics in a focused exercise and explain the result",
+    "difficulty": "hard",
+    "explanation": "This directly tests understanding of Linear Algebra Basics: Vectors, matrices and transformations used in machine learning."
+  },
+  {
+    "id": "ml_linear_algebra_boss_5",
+    "skill_id": "ml_linear_algebra",
+    "question": "Which statement best describes the focus of Linear Algebra Basics?",
+    "question_type": "conceptual",
+    "options": [
+      "Vectors, matrices and transformations used in machine learning",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Vectors, matrices and transformations used in machine learning",
+    "difficulty": "advanced",
+    "explanation": "This directly tests understanding of Linear Algebra Basics: Vectors, matrices and transformations used in machine learning."
+  },
+  {
+    "id": "ml_probability_boss_1",
+    "skill_id": "ml_probability",
+    "question": "Which statement best describes the focus of Probability Basics?",
+    "question_type": "conceptual",
+    "options": [
+      "Events, conditional probability and distributions",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Events, conditional probability and distributions",
+    "difficulty": "medium",
+    "explanation": "This directly tests understanding of Probability Basics: Events, conditional probability and distributions."
+  },
+  {
+    "id": "ml_probability_boss_2",
+    "skill_id": "ml_probability",
+    "question": "Which activity most directly demonstrates practical understanding of Probability Basics?",
+    "question_type": "mcq",
+    "options": [
+      "Apply Probability Basics in a focused exercise and explain the result",
+      "Rename unrelated files without observing behavior",
+      "Change a display color without testing logic",
+      "Install an operating system without using the concept"
+    ],
+    "correct_answer": "Apply Probability Basics in a focused exercise and explain the result",
+    "difficulty": "medium",
+    "explanation": "This directly tests understanding of Probability Basics: Events, conditional probability and distributions."
+  },
+  {
+    "id": "ml_probability_boss_3",
+    "skill_id": "ml_probability",
+    "question": "Which statement best describes the focus of Probability Basics?",
+    "question_type": "conceptual",
+    "options": [
+      "Events, conditional probability and distributions",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Events, conditional probability and distributions",
+    "difficulty": "hard",
+    "explanation": "This directly tests understanding of Probability Basics: Events, conditional probability and distributions."
+  },
+  {
+    "id": "ml_probability_boss_4",
+    "skill_id": "ml_probability",
+    "question": "Which activity most directly demonstrates practical understanding of Probability Basics?",
+    "question_type": "mcq",
+    "options": [
+      "Apply Probability Basics in a focused exercise and explain the result",
+      "Rename unrelated files without observing behavior",
+      "Change a display color without testing logic",
+      "Install an operating system without using the concept"
+    ],
+    "correct_answer": "Apply Probability Basics in a focused exercise and explain the result",
+    "difficulty": "hard",
+    "explanation": "This directly tests understanding of Probability Basics: Events, conditional probability and distributions."
+  },
+  {
+    "id": "ml_probability_boss_5",
+    "skill_id": "ml_probability",
+    "question": "Which statement best describes the focus of Probability Basics?",
+    "question_type": "conceptual",
+    "options": [
+      "Events, conditional probability and distributions",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Events, conditional probability and distributions",
+    "difficulty": "advanced",
+    "explanation": "This directly tests understanding of Probability Basics: Events, conditional probability and distributions."
+  },
+  {
+    "id": "ml_statistics_boss_1",
+    "skill_id": "ml_statistics",
+    "question": "Which statement best describes the focus of Statistics Basics?",
+    "question_type": "conceptual",
+    "options": [
+      "Descriptive statistics, sampling and statistical inference foundations",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Descriptive statistics, sampling and statistical inference foundations",
+    "difficulty": "medium",
+    "explanation": "This directly tests understanding of Statistics Basics: Descriptive statistics, sampling and statistical inference foundations."
+  },
+  {
+    "id": "ml_statistics_boss_2",
+    "skill_id": "ml_statistics",
+    "question": "Which activity most directly demonstrates practical understanding of Statistics Basics?",
+    "question_type": "mcq",
+    "options": [
+      "Apply Statistics Basics in a focused exercise and explain the result",
+      "Rename unrelated files without observing behavior",
+      "Change a display color without testing logic",
+      "Install an operating system without using the concept"
+    ],
+    "correct_answer": "Apply Statistics Basics in a focused exercise and explain the result",
+    "difficulty": "medium",
+    "explanation": "This directly tests understanding of Statistics Basics: Descriptive statistics, sampling and statistical inference foundations."
+  },
+  {
+    "id": "ml_statistics_boss_3",
+    "skill_id": "ml_statistics",
+    "question": "Which statement best describes the focus of Statistics Basics?",
+    "question_type": "conceptual",
+    "options": [
+      "Descriptive statistics, sampling and statistical inference foundations",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Descriptive statistics, sampling and statistical inference foundations",
+    "difficulty": "hard",
+    "explanation": "This directly tests understanding of Statistics Basics: Descriptive statistics, sampling and statistical inference foundations."
+  },
+  {
+    "id": "ml_statistics_boss_4",
+    "skill_id": "ml_statistics",
+    "question": "Which activity most directly demonstrates practical understanding of Statistics Basics?",
+    "question_type": "mcq",
+    "options": [
+      "Apply Statistics Basics in a focused exercise and explain the result",
+      "Rename unrelated files without observing behavior",
+      "Change a display color without testing logic",
+      "Install an operating system without using the concept"
+    ],
+    "correct_answer": "Apply Statistics Basics in a focused exercise and explain the result",
+    "difficulty": "hard",
+    "explanation": "This directly tests understanding of Statistics Basics: Descriptive statistics, sampling and statistical inference foundations."
+  },
+  {
+    "id": "ml_statistics_boss_5",
+    "skill_id": "ml_statistics",
+    "question": "Which statement best describes the focus of Statistics Basics?",
+    "question_type": "conceptual",
+    "options": [
+      "Descriptive statistics, sampling and statistical inference foundations",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Descriptive statistics, sampling and statistical inference foundations",
+    "difficulty": "advanced",
+    "explanation": "This directly tests understanding of Statistics Basics: Descriptive statistics, sampling and statistical inference foundations."
+  },
+  {
+    "id": "ml_preprocessing_boss_1",
+    "skill_id": "ml_preprocessing",
+    "question": "Which statement best describes the focus of Data Preprocessing?",
+    "question_type": "conceptual",
+    "options": [
+      "Preparing datasets with cleaning, encoding, scaling and splitting",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Preparing datasets with cleaning, encoding, scaling and splitting",
+    "difficulty": "medium",
+    "explanation": "This directly tests understanding of Data Preprocessing: Preparing datasets with cleaning, encoding, scaling and splitting."
+  },
+  {
+    "id": "ml_preprocessing_boss_2",
+    "skill_id": "ml_preprocessing",
+    "question": "Which activity most directly demonstrates practical understanding of Data Preprocessing?",
+    "question_type": "mcq",
+    "options": [
+      "Apply Data Preprocessing in a focused exercise and explain the result",
+      "Rename unrelated files without observing behavior",
+      "Change a display color without testing logic",
+      "Install an operating system without using the concept"
+    ],
+    "correct_answer": "Apply Data Preprocessing in a focused exercise and explain the result",
+    "difficulty": "medium",
+    "explanation": "This directly tests understanding of Data Preprocessing: Preparing datasets with cleaning, encoding, scaling and splitting."
+  },
+  {
+    "id": "ml_preprocessing_boss_3",
+    "skill_id": "ml_preprocessing",
+    "question": "Which statement best describes the focus of Data Preprocessing?",
+    "question_type": "conceptual",
+    "options": [
+      "Preparing datasets with cleaning, encoding, scaling and splitting",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Preparing datasets with cleaning, encoding, scaling and splitting",
+    "difficulty": "hard",
+    "explanation": "This directly tests understanding of Data Preprocessing: Preparing datasets with cleaning, encoding, scaling and splitting."
+  },
+  {
+    "id": "ml_preprocessing_boss_4",
+    "skill_id": "ml_preprocessing",
+    "question": "Which activity most directly demonstrates practical understanding of Data Preprocessing?",
+    "question_type": "mcq",
+    "options": [
+      "Apply Data Preprocessing in a focused exercise and explain the result",
+      "Rename unrelated files without observing behavior",
+      "Change a display color without testing logic",
+      "Install an operating system without using the concept"
+    ],
+    "correct_answer": "Apply Data Preprocessing in a focused exercise and explain the result",
+    "difficulty": "hard",
+    "explanation": "This directly tests understanding of Data Preprocessing: Preparing datasets with cleaning, encoding, scaling and splitting."
+  },
+  {
+    "id": "ml_preprocessing_boss_5",
+    "skill_id": "ml_preprocessing",
+    "question": "Which statement best describes the focus of Data Preprocessing?",
+    "question_type": "conceptual",
+    "options": [
+      "Preparing datasets with cleaning, encoding, scaling and splitting",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Preparing datasets with cleaning, encoding, scaling and splitting",
+    "difficulty": "advanced",
+    "explanation": "This directly tests understanding of Data Preprocessing: Preparing datasets with cleaning, encoding, scaling and splitting."
+  },
+  {
+    "id": "ml_regression_boss_1",
+    "skill_id": "ml_regression",
+    "question": "Which statement best describes the focus of Regression?",
+    "question_type": "conceptual",
+    "options": [
+      "Predicting continuous values with regression models",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Predicting continuous values with regression models",
+    "difficulty": "medium",
+    "explanation": "This directly tests understanding of Regression: Predicting continuous values with regression models."
+  },
+  {
+    "id": "ml_regression_boss_2",
+    "skill_id": "ml_regression",
+    "question": "Which activity most directly demonstrates practical understanding of Regression?",
+    "question_type": "mcq",
+    "options": [
+      "Apply Regression in a focused exercise and explain the result",
+      "Rename unrelated files without observing behavior",
+      "Change a display color without testing logic",
+      "Install an operating system without using the concept"
+    ],
+    "correct_answer": "Apply Regression in a focused exercise and explain the result",
+    "difficulty": "medium",
+    "explanation": "This directly tests understanding of Regression: Predicting continuous values with regression models."
+  },
+  {
+    "id": "ml_regression_boss_3",
+    "skill_id": "ml_regression",
+    "question": "Which statement best describes the focus of Regression?",
+    "question_type": "conceptual",
+    "options": [
+      "Predicting continuous values with regression models",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Predicting continuous values with regression models",
+    "difficulty": "hard",
+    "explanation": "This directly tests understanding of Regression: Predicting continuous values with regression models."
+  },
+  {
+    "id": "ml_regression_boss_4",
+    "skill_id": "ml_regression",
+    "question": "Which activity most directly demonstrates practical understanding of Regression?",
+    "question_type": "mcq",
+    "options": [
+      "Apply Regression in a focused exercise and explain the result",
+      "Rename unrelated files without observing behavior",
+      "Change a display color without testing logic",
+      "Install an operating system without using the concept"
+    ],
+    "correct_answer": "Apply Regression in a focused exercise and explain the result",
+    "difficulty": "hard",
+    "explanation": "This directly tests understanding of Regression: Predicting continuous values with regression models."
+  },
+  {
+    "id": "ml_regression_boss_5",
+    "skill_id": "ml_regression",
+    "question": "Which statement best describes the focus of Regression?",
+    "question_type": "conceptual",
+    "options": [
+      "Predicting continuous values with regression models",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Predicting continuous values with regression models",
+    "difficulty": "advanced",
+    "explanation": "This directly tests understanding of Regression: Predicting continuous values with regression models."
+  },
+  {
+    "id": "ml_classification_boss_1",
+    "skill_id": "ml_classification",
+    "question": "Which statement best describes the focus of Classification?",
+    "question_type": "conceptual",
+    "options": [
+      "Predicting categories with classification models",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Predicting categories with classification models",
+    "difficulty": "medium",
+    "explanation": "This directly tests understanding of Classification: Predicting categories with classification models."
+  },
+  {
+    "id": "ml_classification_boss_2",
+    "skill_id": "ml_classification",
+    "question": "Which activity most directly demonstrates practical understanding of Classification?",
+    "question_type": "mcq",
+    "options": [
+      "Apply Classification in a focused exercise and explain the result",
+      "Rename unrelated files without observing behavior",
+      "Change a display color without testing logic",
+      "Install an operating system without using the concept"
+    ],
+    "correct_answer": "Apply Classification in a focused exercise and explain the result",
+    "difficulty": "medium",
+    "explanation": "This directly tests understanding of Classification: Predicting categories with classification models."
+  },
+  {
+    "id": "ml_classification_boss_3",
+    "skill_id": "ml_classification",
+    "question": "Which statement best describes the focus of Classification?",
+    "question_type": "conceptual",
+    "options": [
+      "Predicting categories with classification models",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Predicting categories with classification models",
+    "difficulty": "hard",
+    "explanation": "This directly tests understanding of Classification: Predicting categories with classification models."
+  },
+  {
+    "id": "ml_classification_boss_4",
+    "skill_id": "ml_classification",
+    "question": "Which activity most directly demonstrates practical understanding of Classification?",
+    "question_type": "mcq",
+    "options": [
+      "Apply Classification in a focused exercise and explain the result",
+      "Rename unrelated files without observing behavior",
+      "Change a display color without testing logic",
+      "Install an operating system without using the concept"
+    ],
+    "correct_answer": "Apply Classification in a focused exercise and explain the result",
+    "difficulty": "hard",
+    "explanation": "This directly tests understanding of Classification: Predicting categories with classification models."
+  },
+  {
+    "id": "ml_classification_boss_5",
+    "skill_id": "ml_classification",
+    "question": "Which statement best describes the focus of Classification?",
+    "question_type": "conceptual",
+    "options": [
+      "Predicting categories with classification models",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Predicting categories with classification models",
+    "difficulty": "advanced",
+    "explanation": "This directly tests understanding of Classification: Predicting categories with classification models."
+  },
+  {
+    "id": "ml_evaluation_boss_1",
+    "skill_id": "ml_evaluation",
+    "question": "Which statement best describes the focus of Model Evaluation?",
+    "question_type": "conceptual",
+    "options": [
+      "Choosing metrics and evaluating model performance reliably",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Choosing metrics and evaluating model performance reliably",
+    "difficulty": "medium",
+    "explanation": "This directly tests understanding of Model Evaluation: Choosing metrics and evaluating model performance reliably."
+  },
+  {
+    "id": "ml_evaluation_boss_2",
+    "skill_id": "ml_evaluation",
+    "question": "Which activity most directly demonstrates practical understanding of Model Evaluation?",
+    "question_type": "mcq",
+    "options": [
+      "Apply Model Evaluation in a focused exercise and explain the result",
+      "Rename unrelated files without observing behavior",
+      "Change a display color without testing logic",
+      "Install an operating system without using the concept"
+    ],
+    "correct_answer": "Apply Model Evaluation in a focused exercise and explain the result",
+    "difficulty": "medium",
+    "explanation": "This directly tests understanding of Model Evaluation: Choosing metrics and evaluating model performance reliably."
+  },
+  {
+    "id": "ml_evaluation_boss_3",
+    "skill_id": "ml_evaluation",
+    "question": "Which statement best describes the focus of Model Evaluation?",
+    "question_type": "conceptual",
+    "options": [
+      "Choosing metrics and evaluating model performance reliably",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Choosing metrics and evaluating model performance reliably",
+    "difficulty": "hard",
+    "explanation": "This directly tests understanding of Model Evaluation: Choosing metrics and evaluating model performance reliably."
+  },
+  {
+    "id": "ml_evaluation_boss_4",
+    "skill_id": "ml_evaluation",
+    "question": "Which activity most directly demonstrates practical understanding of Model Evaluation?",
+    "question_type": "mcq",
+    "options": [
+      "Apply Model Evaluation in a focused exercise and explain the result",
+      "Rename unrelated files without observing behavior",
+      "Change a display color without testing logic",
+      "Install an operating system without using the concept"
+    ],
+    "correct_answer": "Apply Model Evaluation in a focused exercise and explain the result",
+    "difficulty": "hard",
+    "explanation": "This directly tests understanding of Model Evaluation: Choosing metrics and evaluating model performance reliably."
+  },
+  {
+    "id": "ml_evaluation_boss_5",
+    "skill_id": "ml_evaluation",
+    "question": "Which statement best describes the focus of Model Evaluation?",
+    "question_type": "conceptual",
+    "options": [
+      "Choosing metrics and evaluating model performance reliably",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Choosing metrics and evaluating model performance reliably",
+    "difficulty": "advanced",
+    "explanation": "This directly tests understanding of Model Evaluation: Choosing metrics and evaluating model performance reliably."
+  },
+  {
+    "id": "ml_features_boss_1",
+    "skill_id": "ml_features",
+    "question": "Which statement best describes the focus of Feature Engineering?",
+    "question_type": "conceptual",
+    "options": [
+      "Creating and selecting informative features for models",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Creating and selecting informative features for models",
+    "difficulty": "medium",
+    "explanation": "This directly tests understanding of Feature Engineering: Creating and selecting informative features for models."
+  },
+  {
+    "id": "ml_features_boss_2",
+    "skill_id": "ml_features",
+    "question": "Which activity most directly demonstrates practical understanding of Feature Engineering?",
+    "question_type": "mcq",
+    "options": [
+      "Apply Feature Engineering in a focused exercise and explain the result",
+      "Rename unrelated files without observing behavior",
+      "Change a display color without testing logic",
+      "Install an operating system without using the concept"
+    ],
+    "correct_answer": "Apply Feature Engineering in a focused exercise and explain the result",
+    "difficulty": "medium",
+    "explanation": "This directly tests understanding of Feature Engineering: Creating and selecting informative features for models."
+  },
+  {
+    "id": "ml_features_boss_3",
+    "skill_id": "ml_features",
+    "question": "Which statement best describes the focus of Feature Engineering?",
+    "question_type": "conceptual",
+    "options": [
+      "Creating and selecting informative features for models",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Creating and selecting informative features for models",
+    "difficulty": "hard",
+    "explanation": "This directly tests understanding of Feature Engineering: Creating and selecting informative features for models."
+  },
+  {
+    "id": "ml_features_boss_4",
+    "skill_id": "ml_features",
+    "question": "Which activity most directly demonstrates practical understanding of Feature Engineering?",
+    "question_type": "mcq",
+    "options": [
+      "Apply Feature Engineering in a focused exercise and explain the result",
+      "Rename unrelated files without observing behavior",
+      "Change a display color without testing logic",
+      "Install an operating system without using the concept"
+    ],
+    "correct_answer": "Apply Feature Engineering in a focused exercise and explain the result",
+    "difficulty": "hard",
+    "explanation": "This directly tests understanding of Feature Engineering: Creating and selecting informative features for models."
+  },
+  {
+    "id": "ml_features_boss_5",
+    "skill_id": "ml_features",
+    "question": "Which statement best describes the focus of Feature Engineering?",
+    "question_type": "conceptual",
+    "options": [
+      "Creating and selecting informative features for models",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Creating and selecting informative features for models",
+    "difficulty": "advanced",
+    "explanation": "This directly tests understanding of Feature Engineering: Creating and selecting informative features for models."
+  },
+  {
+    "id": "ml_neural_networks_boss_1",
+    "skill_id": "ml_neural_networks",
+    "question": "Which statement best describes the focus of Basic Neural Networks?",
+    "question_type": "conceptual",
+    "options": [
+      "Layers, activations and training concepts for simple neural networks",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Layers, activations and training concepts for simple neural networks",
+    "difficulty": "medium",
+    "explanation": "This directly tests understanding of Basic Neural Networks: Layers, activations and training concepts for simple neural networks."
+  },
+  {
+    "id": "ml_neural_networks_boss_2",
+    "skill_id": "ml_neural_networks",
+    "question": "Which activity most directly demonstrates practical understanding of Basic Neural Networks?",
+    "question_type": "mcq",
+    "options": [
+      "Apply Basic Neural Networks in a focused exercise and explain the result",
+      "Rename unrelated files without observing behavior",
+      "Change a display color without testing logic",
+      "Install an operating system without using the concept"
+    ],
+    "correct_answer": "Apply Basic Neural Networks in a focused exercise and explain the result",
+    "difficulty": "medium",
+    "explanation": "This directly tests understanding of Basic Neural Networks: Layers, activations and training concepts for simple neural networks."
+  },
+  {
+    "id": "ml_neural_networks_boss_3",
+    "skill_id": "ml_neural_networks",
+    "question": "Which statement best describes the focus of Basic Neural Networks?",
+    "question_type": "conceptual",
+    "options": [
+      "Layers, activations and training concepts for simple neural networks",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Layers, activations and training concepts for simple neural networks",
+    "difficulty": "hard",
+    "explanation": "This directly tests understanding of Basic Neural Networks: Layers, activations and training concepts for simple neural networks."
+  },
+  {
+    "id": "ml_neural_networks_boss_4",
+    "skill_id": "ml_neural_networks",
+    "question": "Which activity most directly demonstrates practical understanding of Basic Neural Networks?",
+    "question_type": "mcq",
+    "options": [
+      "Apply Basic Neural Networks in a focused exercise and explain the result",
+      "Rename unrelated files without observing behavior",
+      "Change a display color without testing logic",
+      "Install an operating system without using the concept"
+    ],
+    "correct_answer": "Apply Basic Neural Networks in a focused exercise and explain the result",
+    "difficulty": "hard",
+    "explanation": "This directly tests understanding of Basic Neural Networks: Layers, activations and training concepts for simple neural networks."
+  },
+  {
+    "id": "ml_neural_networks_boss_5",
+    "skill_id": "ml_neural_networks",
+    "question": "Which statement best describes the focus of Basic Neural Networks?",
+    "question_type": "conceptual",
+    "options": [
+      "Layers, activations and training concepts for simple neural networks",
+      "A database backup and restore procedure",
+      "A visual branding and color-selection system",
+      "A network cabling standard unrelated to software"
+    ],
+    "correct_answer": "Layers, activations and training concepts for simple neural networks",
+    "difficulty": "advanced",
+    "explanation": "This directly tests understanding of Basic Neural Networks: Layers, activations and training concepts for simple neural networks."
+  }
+]
